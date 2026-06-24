@@ -1,0 +1,1289 @@
+{
+  "tool": "safe_offline_tile_matching_research",
+  "version": 1,
+  "source_dir": "/Users/afshadow/workspace/flight controller/kyiv-route-google-squares",
+  "safety_notes": [
+    "This report uses anonymized tile identifiers only.",
+    "The generated artifacts intentionally omit coordinates, source labels, and route outputs.",
+    "The results are intended for dataset inspection and similarity analysis rather than navigation."
+  ],
+  "descriptor": {
+    "image_size": 96,
+    "appearance_grid": 24,
+    "color_histogram_bins_per_channel": 12,
+    "top_k_neighbors": 3
+  },
+  "dataset_summary": {
+    "tile_count": 55,
+    "average_texture_score": 0.041003,
+    "min_texture_score": 0.021644,
+    "max_texture_score": 0.068146
+  },
+  "tiles": [
+    {
+      "tile_id": "tile_001",
+      "mean_rgb": [
+        0.2248,
+        0.283,
+        0.2227
+      ],
+      "texture_score": 0.03755,
+      "nearest_neighbors": [
+        {
+          "tile_id": "tile_019",
+          "score": 0.3253
+        },
+        {
+          "tile_id": "tile_022",
+          "score": 0.3238
+        },
+        {
+          "tile_id": "tile_027",
+          "score": 0.2859
+        }
+      ]
+    },
+    {
+      "tile_id": "tile_002",
+      "mean_rgb": [
+        0.2812,
+        0.3246,
+        0.2645
+      ],
+      "texture_score": 0.045192,
+      "nearest_neighbors": [
+        {
+          "tile_id": "tile_014",
+          "score": 0.4749
+        },
+        {
+          "tile_id": "tile_050",
+          "score": 0.3986
+        },
+        {
+          "tile_id": "tile_019",
+          "score": 0.3559
+        }
+      ]
+    },
+    {
+      "tile_id": "tile_003",
+      "mean_rgb": [
+        0.2688,
+        0.3185,
+        0.2499
+      ],
+      "texture_score": 0.043529,
+      "nearest_neighbors": [
+        {
+          "tile_id": "tile_043",
+          "score": 0.4302
+        },
+        {
+          "tile_id": "tile_035",
+          "score": 0.3708
+        },
+        {
+          "tile_id": "tile_026",
+          "score": 0.3624
+        }
+      ]
+    },
+    {
+      "tile_id": "tile_004",
+      "mean_rgb": [
+        0.2328,
+        0.29,
+        0.2346
+      ],
+      "texture_score": 0.036604,
+      "nearest_neighbors": [
+        {
+          "tile_id": "tile_023",
+          "score": 0.3936
+        },
+        {
+          "tile_id": "tile_043",
+          "score": 0.3252
+        },
+        {
+          "tile_id": "tile_033",
+          "score": 0.3039
+        }
+      ]
+    },
+    {
+      "tile_id": "tile_005",
+      "mean_rgb": [
+        0.3002,
+        0.3553,
+        0.2878
+      ],
+      "texture_score": 0.046662,
+      "nearest_neighbors": [
+        {
+          "tile_id": "tile_014",
+          "score": 0.3994
+        },
+        {
+          "tile_id": "tile_050",
+          "score": 0.3572
+        },
+        {
+          "tile_id": "tile_002",
+          "score": 0.3278
+        }
+      ]
+    },
+    {
+      "tile_id": "tile_006",
+      "mean_rgb": [
+        0.2879,
+        0.3505,
+        0.2791
+      ],
+      "texture_score": 0.043528,
+      "nearest_neighbors": [
+        {
+          "tile_id": "tile_019",
+          "score": 0.4991
+        },
+        {
+          "tile_id": "tile_014",
+          "score": 0.4036
+        },
+        {
+          "tile_id": "tile_012",
+          "score": 0.3631
+        }
+      ]
+    },
+    {
+      "tile_id": "tile_007",
+      "mean_rgb": [
+        0.2371,
+        0.3157,
+        0.2528
+      ],
+      "texture_score": 0.040746,
+      "nearest_neighbors": [
+        {
+          "tile_id": "tile_012",
+          "score": 0.3213
+        },
+        {
+          "tile_id": "tile_030",
+          "score": 0.2938
+        },
+        {
+          "tile_id": "tile_022",
+          "score": 0.2782
+        }
+      ]
+    },
+    {
+      "tile_id": "tile_008",
+      "mean_rgb": [
+        0.3302,
+        0.3768,
+        0.3016
+      ],
+      "texture_score": 0.046731,
+      "nearest_neighbors": [
+        {
+          "tile_id": "tile_029",
+          "score": 0.3825
+        },
+        {
+          "tile_id": "tile_019",
+          "score": 0.3467
+        },
+        {
+          "tile_id": "tile_034",
+          "score": 0.2751
+        }
+      ]
+    },
+    {
+      "tile_id": "tile_009",
+      "mean_rgb": [
+        0.2917,
+        0.3405,
+        0.2798
+      ],
+      "texture_score": 0.039495,
+      "nearest_neighbors": [
+        {
+          "tile_id": "tile_012",
+          "score": 0.4138
+        },
+        {
+          "tile_id": "tile_021",
+          "score": 0.3486
+        },
+        {
+          "tile_id": "tile_043",
+          "score": 0.3284
+        }
+      ]
+    },
+    {
+      "tile_id": "tile_010",
+      "mean_rgb": [
+        0.2803,
+        0.348,
+        0.2746
+      ],
+      "texture_score": 0.042615,
+      "nearest_neighbors": [
+        {
+          "tile_id": "tile_024",
+          "score": 0.3235
+        },
+        {
+          "tile_id": "tile_017",
+          "score": 0.2645
+        },
+        {
+          "tile_id": "tile_011",
+          "score": 0.2472
+        }
+      ]
+    },
+    {
+      "tile_id": "tile_011",
+      "mean_rgb": [
+        0.2901,
+        0.3358,
+        0.2608
+      ],
+      "texture_score": 0.040317,
+      "nearest_neighbors": [
+        {
+          "tile_id": "tile_045",
+          "score": 0.3029
+        },
+        {
+          "tile_id": "tile_010",
+          "score": 0.2472
+        },
+        {
+          "tile_id": "tile_034",
+          "score": 0.2061
+        }
+      ]
+    },
+    {
+      "tile_id": "tile_012",
+      "mean_rgb": [
+        0.2074,
+        0.2768,
+        0.2275
+      ],
+      "texture_score": 0.027461,
+      "nearest_neighbors": [
+        {
+          "tile_id": "tile_039",
+          "score": 0.4883
+        },
+        {
+          "tile_id": "tile_043",
+          "score": 0.4622
+        },
+        {
+          "tile_id": "tile_019",
+          "score": 0.4267
+        }
+      ]
+    },
+    {
+      "tile_id": "tile_013",
+      "mean_rgb": [
+        0.1592,
+        0.2527,
+        0.1995
+      ],
+      "texture_score": 0.021644,
+      "nearest_neighbors": [
+        {
+          "tile_id": "tile_016",
+          "score": 0.4015
+        },
+        {
+          "tile_id": "tile_024",
+          "score": 0.3543
+        },
+        {
+          "tile_id": "tile_051",
+          "score": 0.2466
+        }
+      ]
+    },
+    {
+      "tile_id": "tile_014",
+      "mean_rgb": [
+        0.2423,
+        0.3207,
+        0.2561
+      ],
+      "texture_score": 0.031332,
+      "nearest_neighbors": [
+        {
+          "tile_id": "tile_002",
+          "score": 0.4749
+        },
+        {
+          "tile_id": "tile_050",
+          "score": 0.4422
+        },
+        {
+          "tile_id": "tile_006",
+          "score": 0.4036
+        }
+      ]
+    },
+    {
+      "tile_id": "tile_015",
+      "mean_rgb": [
+        0.2308,
+        0.3055,
+        0.2503
+      ],
+      "texture_score": 0.036341,
+      "nearest_neighbors": [
+        {
+          "tile_id": "tile_030",
+          "score": 0.4095
+        },
+        {
+          "tile_id": "tile_014",
+          "score": 0.3874
+        },
+        {
+          "tile_id": "tile_048",
+          "score": 0.3632
+        }
+      ]
+    },
+    {
+      "tile_id": "tile_016",
+      "mean_rgb": [
+        0.2121,
+        0.2727,
+        0.2342
+      ],
+      "texture_score": 0.027301,
+      "nearest_neighbors": [
+        {
+          "tile_id": "tile_013",
+          "score": 0.4015
+        },
+        {
+          "tile_id": "tile_039",
+          "score": 0.3288
+        },
+        {
+          "tile_id": "tile_012",
+          "score": 0.3094
+        }
+      ]
+    },
+    {
+      "tile_id": "tile_017",
+      "mean_rgb": [
+        0.3051,
+        0.3351,
+        0.28
+      ],
+      "texture_score": 0.052245,
+      "nearest_neighbors": [
+        {
+          "tile_id": "tile_024",
+          "score": 0.317
+        },
+        {
+          "tile_id": "tile_054",
+          "score": 0.2762
+        },
+        {
+          "tile_id": "tile_010",
+          "score": 0.2645
+        }
+      ]
+    },
+    {
+      "tile_id": "tile_018",
+      "mean_rgb": [
+        0.3236,
+        0.3541,
+        0.2891
+      ],
+      "texture_score": 0.050015,
+      "nearest_neighbors": [
+        {
+          "tile_id": "tile_041",
+          "score": 0.2712
+        },
+        {
+          "tile_id": "tile_016",
+          "score": 0.2621
+        },
+        {
+          "tile_id": "tile_012",
+          "score": 0.2596
+        }
+      ]
+    },
+    {
+      "tile_id": "tile_019",
+      "mean_rgb": [
+        0.2719,
+        0.3198,
+        0.2671
+      ],
+      "texture_score": 0.035111,
+      "nearest_neighbors": [
+        {
+          "tile_id": "tile_006",
+          "score": 0.4991
+        },
+        {
+          "tile_id": "tile_012",
+          "score": 0.4267
+        },
+        {
+          "tile_id": "tile_014",
+          "score": 0.3982
+        }
+      ]
+    },
+    {
+      "tile_id": "tile_020",
+      "mean_rgb": [
+        0.3032,
+        0.3405,
+        0.2925
+      ],
+      "texture_score": 0.045955,
+      "nearest_neighbors": [
+        {
+          "tile_id": "tile_001",
+          "score": 0.24
+        },
+        {
+          "tile_id": "tile_054",
+          "score": 0.2353
+        },
+        {
+          "tile_id": "tile_049",
+          "score": 0.2271
+        }
+      ]
+    },
+    {
+      "tile_id": "tile_021",
+      "mean_rgb": [
+        0.2442,
+        0.3063,
+        0.2693
+      ],
+      "texture_score": 0.036107,
+      "nearest_neighbors": [
+        {
+          "tile_id": "tile_043",
+          "score": 0.4635
+        },
+        {
+          "tile_id": "tile_023",
+          "score": 0.4578
+        },
+        {
+          "tile_id": "tile_045",
+          "score": 0.438
+        }
+      ]
+    },
+    {
+      "tile_id": "tile_022",
+      "mean_rgb": [
+        0.231,
+        0.2941,
+        0.2508
+      ],
+      "texture_score": 0.03423,
+      "nearest_neighbors": [
+        {
+          "tile_id": "tile_049",
+          "score": 0.3874
+        },
+        {
+          "tile_id": "tile_030",
+          "score": 0.326
+        },
+        {
+          "tile_id": "tile_001",
+          "score": 0.3238
+        }
+      ]
+    },
+    {
+      "tile_id": "tile_023",
+      "mean_rgb": [
+        0.2201,
+        0.288,
+        0.2397
+      ],
+      "texture_score": 0.036591,
+      "nearest_neighbors": [
+        {
+          "tile_id": "tile_021",
+          "score": 0.4578
+        },
+        {
+          "tile_id": "tile_043",
+          "score": 0.4278
+        },
+        {
+          "tile_id": "tile_004",
+          "score": 0.3936
+        }
+      ]
+    },
+    {
+      "tile_id": "tile_024",
+      "mean_rgb": [
+        0.2333,
+        0.2935,
+        0.2341
+      ],
+      "texture_score": 0.037266,
+      "nearest_neighbors": [
+        {
+          "tile_id": "tile_033",
+          "score": 0.3626
+        },
+        {
+          "tile_id": "tile_013",
+          "score": 0.3543
+        },
+        {
+          "tile_id": "tile_010",
+          "score": 0.3235
+        }
+      ]
+    },
+    {
+      "tile_id": "tile_025",
+      "mean_rgb": [
+        0.2212,
+        0.2805,
+        0.2325
+      ],
+      "texture_score": 0.036298,
+      "nearest_neighbors": [
+        {
+          "tile_id": "tile_041",
+          "score": 0.3322
+        },
+        {
+          "tile_id": "tile_028",
+          "score": 0.3016
+        },
+        {
+          "tile_id": "tile_012",
+          "score": 0.2975
+        }
+      ]
+    },
+    {
+      "tile_id": "tile_026",
+      "mean_rgb": [
+        0.246,
+        0.2948,
+        0.2426
+      ],
+      "texture_score": 0.035064,
+      "nearest_neighbors": [
+        {
+          "tile_id": "tile_003",
+          "score": 0.3624
+        },
+        {
+          "tile_id": "tile_023",
+          "score": 0.3356
+        },
+        {
+          "tile_id": "tile_041",
+          "score": 0.318
+        }
+      ]
+    },
+    {
+      "tile_id": "tile_027",
+      "mean_rgb": [
+        0.2345,
+        0.2833,
+        0.2384
+      ],
+      "texture_score": 0.030174,
+      "nearest_neighbors": [
+        {
+          "tile_id": "tile_004",
+          "score": 0.2913
+        },
+        {
+          "tile_id": "tile_001",
+          "score": 0.2859
+        },
+        {
+          "tile_id": "tile_055",
+          "score": 0.2609
+        }
+      ]
+    },
+    {
+      "tile_id": "tile_028",
+      "mean_rgb": [
+        0.239,
+        0.2921,
+        0.2418
+      ],
+      "texture_score": 0.036595,
+      "nearest_neighbors": [
+        {
+          "tile_id": "tile_025",
+          "score": 0.3016
+        },
+        {
+          "tile_id": "tile_049",
+          "score": 0.2585
+        },
+        {
+          "tile_id": "tile_017",
+          "score": 0.254
+        }
+      ]
+    },
+    {
+      "tile_id": "tile_029",
+      "mean_rgb": [
+        0.2454,
+        0.2879,
+        0.2499
+      ],
+      "texture_score": 0.038257,
+      "nearest_neighbors": [
+        {
+          "tile_id": "tile_008",
+          "score": 0.3825
+        },
+        {
+          "tile_id": "tile_019",
+          "score": 0.3768
+        },
+        {
+          "tile_id": "tile_038",
+          "score": 0.3192
+        }
+      ]
+    },
+    {
+      "tile_id": "tile_030",
+      "mean_rgb": [
+        0.2485,
+        0.3102,
+        0.2559
+      ],
+      "texture_score": 0.038976,
+      "nearest_neighbors": [
+        {
+          "tile_id": "tile_015",
+          "score": 0.4095
+        },
+        {
+          "tile_id": "tile_014",
+          "score": 0.4007
+        },
+        {
+          "tile_id": "tile_022",
+          "score": 0.326
+        }
+      ]
+    },
+    {
+      "tile_id": "tile_031",
+      "mean_rgb": [
+        0.2536,
+        0.3438,
+        0.2703
+      ],
+      "texture_score": 0.037785,
+      "nearest_neighbors": [
+        {
+          "tile_id": "tile_050",
+          "score": 0.2945
+        },
+        {
+          "tile_id": "tile_014",
+          "score": 0.2921
+        },
+        {
+          "tile_id": "tile_039",
+          "score": 0.2688
+        }
+      ]
+    },
+    {
+      "tile_id": "tile_032",
+      "mean_rgb": [
+        0.3014,
+        0.3575,
+        0.2793
+      ],
+      "texture_score": 0.038795,
+      "nearest_neighbors": [
+        {
+          "tile_id": "tile_037",
+          "score": 0.3369
+        },
+        {
+          "tile_id": "tile_008",
+          "score": 0.2662
+        },
+        {
+          "tile_id": "tile_044",
+          "score": 0.2515
+        }
+      ]
+    },
+    {
+      "tile_id": "tile_033",
+      "mean_rgb": [
+        0.3104,
+        0.3605,
+        0.2928
+      ],
+      "texture_score": 0.033228,
+      "nearest_neighbors": [
+        {
+          "tile_id": "tile_023",
+          "score": 0.3874
+        },
+        {
+          "tile_id": "tile_024",
+          "score": 0.3626
+        },
+        {
+          "tile_id": "tile_014",
+          "score": 0.3575
+        }
+      ]
+    },
+    {
+      "tile_id": "tile_034",
+      "mean_rgb": [
+        0.3446,
+        0.4105,
+        0.3631
+      ],
+      "texture_score": 0.045934,
+      "nearest_neighbors": [
+        {
+          "tile_id": "tile_042",
+          "score": 0.3093
+        },
+        {
+          "tile_id": "tile_054",
+          "score": 0.2959
+        },
+        {
+          "tile_id": "tile_008",
+          "score": 0.2751
+        }
+      ]
+    },
+    {
+      "tile_id": "tile_035",
+      "mean_rgb": [
+        0.2909,
+        0.3702,
+        0.3119
+      ],
+      "texture_score": 0.032528,
+      "nearest_neighbors": [
+        {
+          "tile_id": "tile_003",
+          "score": 0.3708
+        },
+        {
+          "tile_id": "tile_043",
+          "score": 0.3448
+        },
+        {
+          "tile_id": "tile_012",
+          "score": 0.3397
+        }
+      ]
+    },
+    {
+      "tile_id": "tile_036",
+      "mean_rgb": [
+        0.2713,
+        0.3521,
+        0.2827
+      ],
+      "texture_score": 0.032791,
+      "nearest_neighbors": [
+        {
+          "tile_id": "tile_019",
+          "score": 0.3015
+        },
+        {
+          "tile_id": "tile_055",
+          "score": 0.2978
+        },
+        {
+          "tile_id": "tile_025",
+          "score": 0.2626
+        }
+      ]
+    },
+    {
+      "tile_id": "tile_037",
+      "mean_rgb": [
+        0.2955,
+        0.346,
+        0.287
+      ],
+      "texture_score": 0.040283,
+      "nearest_neighbors": [
+        {
+          "tile_id": "tile_032",
+          "score": 0.3369
+        },
+        {
+          "tile_id": "tile_005",
+          "score": 0.2914
+        },
+        {
+          "tile_id": "tile_047",
+          "score": 0.2182
+        }
+      ]
+    },
+    {
+      "tile_id": "tile_038",
+      "mean_rgb": [
+        0.2567,
+        0.3128,
+        0.2762
+      ],
+      "texture_score": 0.041997,
+      "nearest_neighbors": [
+        {
+          "tile_id": "tile_029",
+          "score": 0.3192
+        },
+        {
+          "tile_id": "tile_015",
+          "score": 0.2872
+        },
+        {
+          "tile_id": "tile_019",
+          "score": 0.2727
+        }
+      ]
+    },
+    {
+      "tile_id": "tile_039",
+      "mean_rgb": [
+        0.2018,
+        0.2752,
+        0.2352
+      ],
+      "texture_score": 0.040009,
+      "nearest_neighbors": [
+        {
+          "tile_id": "tile_012",
+          "score": 0.4883
+        },
+        {
+          "tile_id": "tile_016",
+          "score": 0.3288
+        },
+        {
+          "tile_id": "tile_022",
+          "score": 0.2984
+        }
+      ]
+    },
+    {
+      "tile_id": "tile_040",
+      "mean_rgb": [
+        0.2481,
+        0.3097,
+        0.254
+      ],
+      "texture_score": 0.044511,
+      "nearest_neighbors": [
+        {
+          "tile_id": "tile_019",
+          "score": 0.2692
+        },
+        {
+          "tile_id": "tile_014",
+          "score": 0.2486
+        },
+        {
+          "tile_id": "tile_024",
+          "score": 0.2344
+        }
+      ]
+    },
+    {
+      "tile_id": "tile_041",
+      "mean_rgb": [
+        0.2259,
+        0.2978,
+        0.2581
+      ],
+      "texture_score": 0.039956,
+      "nearest_neighbors": [
+        {
+          "tile_id": "tile_025",
+          "score": 0.3322
+        },
+        {
+          "tile_id": "tile_026",
+          "score": 0.318
+        },
+        {
+          "tile_id": "tile_045",
+          "score": 0.2993
+        }
+      ]
+    },
+    {
+      "tile_id": "tile_042",
+      "mean_rgb": [
+        0.2398,
+        0.3028,
+        0.2549
+      ],
+      "texture_score": 0.044576,
+      "nearest_neighbors": [
+        {
+          "tile_id": "tile_034",
+          "score": 0.3093
+        },
+        {
+          "tile_id": "tile_033",
+          "score": 0.2206
+        },
+        {
+          "tile_id": "tile_044",
+          "score": 0.2067
+        }
+      ]
+    },
+    {
+      "tile_id": "tile_043",
+      "mean_rgb": [
+        0.1771,
+        0.2531,
+        0.2171
+      ],
+      "texture_score": 0.032374,
+      "nearest_neighbors": [
+        {
+          "tile_id": "tile_021",
+          "score": 0.4635
+        },
+        {
+          "tile_id": "tile_012",
+          "score": 0.4622
+        },
+        {
+          "tile_id": "tile_003",
+          "score": 0.4302
+        }
+      ]
+    },
+    {
+      "tile_id": "tile_044",
+      "mean_rgb": [
+        0.2699,
+        0.3219,
+        0.2783
+      ],
+      "texture_score": 0.053835,
+      "nearest_neighbors": [
+        {
+          "tile_id": "tile_017",
+          "score": 0.2587
+        },
+        {
+          "tile_id": "tile_032",
+          "score": 0.2515
+        },
+        {
+          "tile_id": "tile_054",
+          "score": 0.2482
+        }
+      ]
+    },
+    {
+      "tile_id": "tile_045",
+      "mean_rgb": [
+        0.2581,
+        0.3226,
+        0.2739
+      ],
+      "texture_score": 0.050719,
+      "nearest_neighbors": [
+        {
+          "tile_id": "tile_021",
+          "score": 0.438
+        },
+        {
+          "tile_id": "tile_043",
+          "score": 0.3912
+        },
+        {
+          "tile_id": "tile_006",
+          "score": 0.32
+        }
+      ]
+    },
+    {
+      "tile_id": "tile_046",
+      "mean_rgb": [
+        0.2076,
+        0.2716,
+        0.2302
+      ],
+      "texture_score": 0.040019,
+      "nearest_neighbors": [
+        {
+          "tile_id": "tile_014",
+          "score": 0.2291
+        },
+        {
+          "tile_id": "tile_002",
+          "score": 0.2225
+        },
+        {
+          "tile_id": "tile_050",
+          "score": 0.2212
+        }
+      ]
+    },
+    {
+      "tile_id": "tile_047",
+      "mean_rgb": [
+        0.232,
+        0.2902,
+        0.2466
+      ],
+      "texture_score": 0.043287,
+      "nearest_neighbors": [
+        {
+          "tile_id": "tile_001",
+          "score": 0.2342
+        },
+        {
+          "tile_id": "tile_022",
+          "score": 0.2279
+        },
+        {
+          "tile_id": "tile_037",
+          "score": 0.2182
+        }
+      ]
+    },
+    {
+      "tile_id": "tile_048",
+      "mean_rgb": [
+        0.1916,
+        0.2528,
+        0.2203
+      ],
+      "texture_score": 0.036628,
+      "nearest_neighbors": [
+        {
+          "tile_id": "tile_015",
+          "score": 0.3632
+        },
+        {
+          "tile_id": "tile_006",
+          "score": 0.2851
+        },
+        {
+          "tile_id": "tile_052",
+          "score": 0.2687
+        }
+      ]
+    },
+    {
+      "tile_id": "tile_049",
+      "mean_rgb": [
+        0.2249,
+        0.2773,
+        0.2417
+      ],
+      "texture_score": 0.040603,
+      "nearest_neighbors": [
+        {
+          "tile_id": "tile_022",
+          "score": 0.3874
+        },
+        {
+          "tile_id": "tile_053",
+          "score": 0.2611
+        },
+        {
+          "tile_id": "tile_028",
+          "score": 0.2585
+        }
+      ]
+    },
+    {
+      "tile_id": "tile_050",
+      "mean_rgb": [
+        0.2191,
+        0.2799,
+        0.2455
+      ],
+      "texture_score": 0.050975,
+      "nearest_neighbors": [
+        {
+          "tile_id": "tile_014",
+          "score": 0.4422
+        },
+        {
+          "tile_id": "tile_002",
+          "score": 0.3986
+        },
+        {
+          "tile_id": "tile_005",
+          "score": 0.3572
+        }
+      ]
+    },
+    {
+      "tile_id": "tile_051",
+      "mean_rgb": [
+        0.2432,
+        0.2977,
+        0.2619
+      ],
+      "texture_score": 0.054505,
+      "nearest_neighbors": [
+        {
+          "tile_id": "tile_016",
+          "score": 0.2864
+        },
+        {
+          "tile_id": "tile_013",
+          "score": 0.2466
+        },
+        {
+          "tile_id": "tile_028",
+          "score": 0.2335
+        }
+      ]
+    },
+    {
+      "tile_id": "tile_052",
+      "mean_rgb": [
+        0.3164,
+        0.3417,
+        0.3139
+      ],
+      "texture_score": 0.068146,
+      "nearest_neighbors": [
+        {
+          "tile_id": "tile_048",
+          "score": 0.2687
+        },
+        {
+          "tile_id": "tile_054",
+          "score": 0.2675
+        },
+        {
+          "tile_id": "tile_017",
+          "score": 0.2204
+        }
+      ]
+    },
+    {
+      "tile_id": "tile_053",
+      "mean_rgb": [
+        0.3117,
+        0.3343,
+        0.3152
+      ],
+      "texture_score": 0.058625,
+      "nearest_neighbors": [
+        {
+          "tile_id": "tile_030",
+          "score": 0.2944
+        },
+        {
+          "tile_id": "tile_012",
+          "score": 0.2799
+        },
+        {
+          "tile_id": "tile_031",
+          "score": 0.2613
+        }
+      ]
+    },
+    {
+      "tile_id": "tile_054",
+      "mean_rgb": [
+        0.344,
+        0.3562,
+        0.3368
+      ],
+      "texture_score": 0.056028,
+      "nearest_neighbors": [
+        {
+          "tile_id": "tile_034",
+          "score": 0.2959
+        },
+        {
+          "tile_id": "tile_017",
+          "score": 0.2762
+        },
+        {
+          "tile_id": "tile_052",
+          "score": 0.2675
+        }
+      ]
+    },
+    {
+      "tile_id": "tile_055",
+      "mean_rgb": [
+        0.3185,
+        0.3372,
+        0.3219
+      ],
+      "texture_score": 0.0471,
+      "nearest_neighbors": [
+        {
+          "tile_id": "tile_021",
+          "score": 0.4275
+        },
+        {
+          "tile_id": "tile_045",
+          "score": 0.3197
+        },
+        {
+          "tile_id": "tile_036",
+          "score": 0.2978
+        }
+      ]
+    }
+  ]
+}
