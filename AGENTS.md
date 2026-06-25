@@ -44,10 +44,18 @@
     ],
     "agent_execution_pipeline": {
         "input_data": {
-            "source_rasters": ["raster_1.png", "raster_2.png"],
-            "grid_layout":,
-            "start_coordinates":,
-            "end_coordinates": [85, 180]
+            "source_rasters": [
+                "kyiv-route-google-squares/01_O-12.png",
+                "kyiv-route-google-squares/02_P-12.png"
+            ],
+            "grid_layout": [
+                [
+                    "kyiv-route-google-squares/01_O-12.png",
+                    "kyiv-route-google-squares/02_P-12.png"
+                ]
+            ],
+            "start_coordinates": [160, 640],
+            "end_coordinates": [2400, 640]
         },
         "output_format": {
             "target_file": "agent_task.json",

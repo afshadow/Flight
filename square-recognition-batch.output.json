@@ -1,0 +1,2980 @@
+{
+  "tool": "square_recognition_batch",
+  "version": 1,
+  "query_mode": "cropped_and_rescaled_variant",
+  "tile_count": 55,
+  "top1_accuracy": 1.0,
+  "top3_accuracy": 1.0,
+  "results": [
+    {
+      "query_label": "O-12",
+      "query_filename": "01_O-12.png",
+      "predicted_label": "O-12",
+      "top1_ok": true,
+      "top3_ok": true,
+      "top_matches": [
+        {
+          "label": "O-12",
+          "filename": "01_O-12.png",
+          "similarity": 0.994247,
+          "center": {
+            "lat": 52.01117716989951,
+            "lng": 32.467136431612424
+          },
+          "bounds": {
+            "south": 51.93851729294736,
+            "west": 32.39447655466027,
+            "north": 52.08383704685166,
+            "east": 32.539796308564576
+          }
+        },
+        {
+          "label": "AN-30",
+          "filename": "39_AN-30.png",
+          "similarity": 0.968645,
+          "center": {
+            "lat": 54.626932740177004,
+            "lng": 36.10013027922005
+          },
+          "bounds": {
+            "south": 54.55427286322485,
+            "west": 36.0274704022679,
+            "north": 54.699592617129156,
+            "east": 36.172790156172205
+          }
+        },
+        {
+          "label": "X-19",
+          "filename": "16_X-19.png",
+          "similarity": 0.95665,
+          "center": {
+            "lat": 53.02841544722965,
+            "lng": 33.775014216751174
+          },
+          "bounds": {
+            "south": 52.955755570277496,
+            "west": 33.70235433979902,
+            "north": 53.1010753241818,
+            "east": 33.847674093703326
+          }
+        }
+      ]
+    },
+    {
+      "query_label": "P-12",
+      "query_filename": "02_P-12.png",
+      "predicted_label": "P-12",
+      "top1_ok": true,
+      "top3_ok": true,
+      "top_matches": [
+        {
+          "label": "P-12",
+          "filename": "02_P-12.png",
+          "similarity": 0.992928,
+          "center": {
+            "lat": 52.01117716989951,
+            "lng": 32.61245618551673
+          },
+          "bounds": {
+            "south": 51.93851729294736,
+            "west": 32.539796308564576,
+            "north": 52.08383704685166,
+            "east": 32.68511606246888
+          }
+        },
+        {
+          "label": "W-18",
+          "filename": "14_W-18.png",
+          "similarity": 0.953912,
+          "center": {
+            "lat": 52.883095693325345,
+            "lng": 33.629694462846864
+          },
+          "bounds": {
+            "south": 52.81043581637319,
+            "west": 33.55703458589471,
+            "north": 52.955755570277496,
+            "east": 33.702354339799015
+          }
+        },
+        {
+          "label": "Y-19",
+          "filename": "17_Y-19.png",
+          "similarity": 0.942845,
+          "center": {
+            "lat": 53.02841544722965,
+            "lng": 33.92033397065548
+          },
+          "bounds": {
+            "south": 52.955755570277496,
+            "west": 33.847674093703326,
+            "north": 53.1010753241818,
+            "east": 33.99299384760763
+          }
+        }
+      ]
+    },
+    {
+      "query_label": "P-13",
+      "query_filename": "03_P-13.png",
+      "predicted_label": "P-13",
+      "top1_ok": true,
+      "top3_ok": true,
+      "top_matches": [
+        {
+          "label": "P-13",
+          "filename": "03_P-13.png",
+          "similarity": 0.993613,
+          "center": {
+            "lat": 52.156496923803815,
+            "lng": 32.61245618551673
+          },
+          "bounds": {
+            "south": 52.08383704685166,
+            "west": 32.539796308564576,
+            "north": 52.229156800755966,
+            "east": 32.68511606246888
+          }
+        },
+        {
+          "label": "AP-31",
+          "filename": "41_AP-31.png",
+          "similarity": 0.971169,
+          "center": {
+            "lat": 54.77225249408131,
+            "lng": 36.39076978702867
+          },
+          "bounds": {
+            "south": 54.699592617129156,
+            "west": 36.318109910076515,
+            "north": 54.84491237103346,
+            "east": 36.46342966398082
+          }
+        },
+        {
+          "label": "AF-25",
+          "filename": "28_AF-25.png",
+          "similarity": 0.966868,
+          "center": {
+            "lat": 53.90033397065548,
+            "lng": 34.937572247985614
+          },
+          "bounds": {
+            "south": 53.82767409370333,
+            "west": 34.86491237103346,
+            "north": 53.97299384760763,
+            "east": 35.010232124937765
+          }
+        }
+      ]
+    },
+    {
+      "query_label": "Q-13",
+      "query_filename": "04_Q-13.png",
+      "predicted_label": "Q-13",
+      "top1_ok": true,
+      "top3_ok": true,
+      "top_matches": [
+        {
+          "label": "Q-13",
+          "filename": "04_Q-13.png",
+          "similarity": 0.99644,
+          "center": {
+            "lat": 52.156496923803815,
+            "lng": 32.75777593942104
+          },
+          "bounds": {
+            "south": 52.08383704685166,
+            "west": 32.685116062468886,
+            "north": 52.229156800755966,
+            "east": 32.83043581637319
+          }
+        },
+        {
+          "label": "AF-24",
+          "filename": "27_AF-24.png",
+          "similarity": 0.972788,
+          "center": {
+            "lat": 53.75501421675118,
+            "lng": 34.937572247985614
+          },
+          "bounds": {
+            "south": 53.682354339799026,
+            "west": 34.86491237103346,
+            "north": 53.82767409370333,
+            "east": 35.010232124937765
+          }
+        },
+        {
+          "label": "AF-25",
+          "filename": "28_AF-25.png",
+          "similarity": 0.963366,
+          "center": {
+            "lat": 53.90033397065548,
+            "lng": 34.937572247985614
+          },
+          "bounds": {
+            "south": 53.82767409370333,
+            "west": 34.86491237103346,
+            "north": 53.97299384760763,
+            "east": 35.010232124937765
+          }
+        }
+      ]
+    },
+    {
+      "query_label": "Q-14",
+      "query_filename": "05_Q-14.png",
+      "predicted_label": "Q-14",
+      "top1_ok": true,
+      "top3_ok": true,
+      "top_matches": [
+        {
+          "label": "Q-14",
+          "filename": "05_Q-14.png",
+          "similarity": 0.991969,
+          "center": {
+            "lat": 52.301816677708125,
+            "lng": 32.75777593942104
+          },
+          "bounds": {
+            "south": 52.22915680075597,
+            "west": 32.685116062468886,
+            "north": 52.374476554660276,
+            "east": 32.83043581637319
+          }
+        },
+        {
+          "label": "R-14",
+          "filename": "06_R-14.png",
+          "similarity": 0.973223,
+          "center": {
+            "lat": 52.301816677708125,
+            "lng": 32.90309569332534
+          },
+          "bounds": {
+            "south": 52.22915680075597,
+            "west": 32.83043581637319,
+            "north": 52.374476554660276,
+            "east": 32.97575557027749
+          }
+        },
+        {
+          "label": "S-15",
+          "filename": "08_S-15.png",
+          "similarity": 0.968156,
+          "center": {
+            "lat": 52.44713643161243,
+            "lng": 33.048415447229644
+          },
+          "bounds": {
+            "south": 52.374476554660276,
+            "west": 32.97575557027749,
+            "north": 52.51979630856458,
+            "east": 33.121075324181795
+          }
+        }
+      ]
+    },
+    {
+      "query_label": "R-14",
+      "query_filename": "06_R-14.png",
+      "predicted_label": "R-14",
+      "top1_ok": true,
+      "top3_ok": true,
+      "top_matches": [
+        {
+          "label": "R-14",
+          "filename": "06_R-14.png",
+          "similarity": 0.991951,
+          "center": {
+            "lat": 52.301816677708125,
+            "lng": 32.90309569332534
+          },
+          "bounds": {
+            "south": 52.22915680075597,
+            "west": 32.83043581637319,
+            "north": 52.374476554660276,
+            "east": 32.97575557027749
+          }
+        },
+        {
+          "label": "Q-14",
+          "filename": "05_Q-14.png",
+          "similarity": 0.976625,
+          "center": {
+            "lat": 52.301816677708125,
+            "lng": 32.75777593942104
+          },
+          "bounds": {
+            "south": 52.22915680075597,
+            "west": 32.685116062468886,
+            "north": 52.374476554660276,
+            "east": 32.83043581637319
+          }
+        },
+        {
+          "label": "T-16",
+          "filename": "10_T-16.png",
+          "similarity": 0.965988,
+          "center": {
+            "lat": 52.59245618551673,
+            "lng": 33.19373520113395
+          },
+          "bounds": {
+            "south": 52.51979630856458,
+            "west": 33.121075324181795,
+            "north": 52.66511606246888,
+            "east": 33.2663950780861
+          }
+        }
+      ]
+    },
+    {
+      "query_label": "S-14",
+      "query_filename": "07_S-14.png",
+      "predicted_label": "S-14",
+      "top1_ok": true,
+      "top3_ok": true,
+      "top_matches": [
+        {
+          "label": "S-14",
+          "filename": "07_S-14.png",
+          "similarity": 0.994253,
+          "center": {
+            "lat": 52.301816677708125,
+            "lng": 33.048415447229644
+          },
+          "bounds": {
+            "south": 52.22915680075597,
+            "west": 32.97575557027749,
+            "north": 52.374476554660276,
+            "east": 33.121075324181795
+          }
+        },
+        {
+          "label": "AH-26",
+          "filename": "30_AH-26.png",
+          "similarity": 0.979321,
+          "center": {
+            "lat": 54.045653724559784,
+            "lng": 35.22821175579422
+          },
+          "bounds": {
+            "south": 53.97299384760763,
+            "west": 35.15555187884207,
+            "north": 54.118313601511936,
+            "east": 35.30087163274637
+          }
+        },
+        {
+          "label": "AT-34",
+          "filename": "47_AT-34.png",
+          "similarity": 0.971107,
+          "center": {
+            "lat": 55.208211755794224,
+            "lng": 36.97204880264589
+          },
+          "bounds": {
+            "south": 55.13555187884207,
+            "west": 36.899388925693735,
+            "north": 55.280871632746376,
+            "east": 37.04470867959804
+          }
+        }
+      ]
+    },
+    {
+      "query_label": "S-15",
+      "query_filename": "08_S-15.png",
+      "predicted_label": "S-15",
+      "top1_ok": true,
+      "top3_ok": true,
+      "top_matches": [
+        {
+          "label": "S-15",
+          "filename": "08_S-15.png",
+          "similarity": 0.995805,
+          "center": {
+            "lat": 52.44713643161243,
+            "lng": 33.048415447229644
+          },
+          "bounds": {
+            "south": 52.374476554660276,
+            "west": 32.97575557027749,
+            "north": 52.51979630856458,
+            "east": 33.121075324181795
+          }
+        },
+        {
+          "label": "AJ-27",
+          "filename": "33_AJ-27.png",
+          "similarity": 0.969469,
+          "center": {
+            "lat": 54.19097347846409,
+            "lng": 35.51885126360283
+          },
+          "bounds": {
+            "south": 54.118313601511936,
+            "west": 35.44619138665068,
+            "north": 54.26363335541624,
+            "east": 35.591511140554985
+          }
+        },
+        {
+          "label": "Z-20",
+          "filename": "18_Z-20.png",
+          "similarity": 0.965697,
+          "center": {
+            "lat": 53.17373520113395,
+            "lng": 34.06565372455978
+          },
+          "bounds": {
+            "south": 53.1010753241818,
+            "west": 33.99299384760763,
+            "north": 53.2463950780861,
+            "east": 34.13831360151193
+          }
+        }
+      ]
+    },
+    {
+      "query_label": "T-15",
+      "query_filename": "09_T-15.png",
+      "predicted_label": "T-15",
+      "top1_ok": true,
+      "top3_ok": true,
+      "top_matches": [
+        {
+          "label": "T-15",
+          "filename": "09_T-15.png",
+          "similarity": 0.996008,
+          "center": {
+            "lat": 52.44713643161243,
+            "lng": 33.19373520113395
+          },
+          "bounds": {
+            "south": 52.374476554660276,
+            "west": 33.121075324181795,
+            "north": 52.51979630856458,
+            "east": 33.2663950780861
+          }
+        },
+        {
+          "label": "AL-29",
+          "filename": "36_AL-29.png",
+          "similarity": 0.980304,
+          "center": {
+            "lat": 54.4816129862727,
+            "lng": 35.80949077141144
+          },
+          "bounds": {
+            "south": 54.40895310932055,
+            "west": 35.73683089445929,
+            "north": 54.55427286322485,
+            "east": 35.88215064836359
+          }
+        },
+        {
+          "label": "AM-29",
+          "filename": "37_AM-29.png",
+          "similarity": 0.973212,
+          "center": {
+            "lat": 54.4816129862727,
+            "lng": 35.95481052531575
+          },
+          "bounds": {
+            "south": 54.40895310932055,
+            "west": 35.8821506483636,
+            "north": 54.55427286322485,
+            "east": 36.0274704022679
+          }
+        }
+      ]
+    },
+    {
+      "query_label": "T-16",
+      "query_filename": "10_T-16.png",
+      "predicted_label": "T-16",
+      "top1_ok": true,
+      "top3_ok": true,
+      "top_matches": [
+        {
+          "label": "T-16",
+          "filename": "10_T-16.png",
+          "similarity": 0.993574,
+          "center": {
+            "lat": 52.59245618551673,
+            "lng": 33.19373520113395
+          },
+          "bounds": {
+            "south": 52.51979630856458,
+            "west": 33.121075324181795,
+            "north": 52.66511606246888,
+            "east": 33.2663950780861
+          }
+        },
+        {
+          "label": "U-16",
+          "filename": "11_U-16.png",
+          "similarity": 0.973074,
+          "center": {
+            "lat": 52.59245618551673,
+            "lng": 33.33905495503826
+          },
+          "bounds": {
+            "south": 52.51979630856458,
+            "west": 33.266395078086106,
+            "north": 52.66511606246888,
+            "east": 33.41171483199041
+          }
+        },
+        {
+          "label": "R-14",
+          "filename": "06_R-14.png",
+          "similarity": 0.970954,
+          "center": {
+            "lat": 52.301816677708125,
+            "lng": 32.90309569332534
+          },
+          "bounds": {
+            "south": 52.22915680075597,
+            "west": 32.83043581637319,
+            "north": 52.374476554660276,
+            "east": 32.97575557027749
+          }
+        }
+      ]
+    },
+    {
+      "query_label": "U-16",
+      "query_filename": "11_U-16.png",
+      "predicted_label": "U-16",
+      "top1_ok": true,
+      "top3_ok": true,
+      "top_matches": [
+        {
+          "label": "U-16",
+          "filename": "11_U-16.png",
+          "similarity": 0.993436,
+          "center": {
+            "lat": 52.59245618551673,
+            "lng": 33.33905495503826
+          },
+          "bounds": {
+            "south": 52.51979630856458,
+            "west": 33.266395078086106,
+            "north": 52.66511606246888,
+            "east": 33.41171483199041
+          }
+        },
+        {
+          "label": "T-16",
+          "filename": "10_T-16.png",
+          "similarity": 0.972842,
+          "center": {
+            "lat": 52.59245618551673,
+            "lng": 33.19373520113395
+          },
+          "bounds": {
+            "south": 52.51979630856458,
+            "west": 33.121075324181795,
+            "north": 52.66511606246888,
+            "east": 33.2663950780861
+          }
+        },
+        {
+          "label": "R-14",
+          "filename": "06_R-14.png",
+          "similarity": 0.969337,
+          "center": {
+            "lat": 52.301816677708125,
+            "lng": 32.90309569332534
+          },
+          "bounds": {
+            "south": 52.22915680075597,
+            "west": 32.83043581637319,
+            "north": 52.374476554660276,
+            "east": 32.97575557027749
+          }
+        }
+      ]
+    },
+    {
+      "query_label": "V-17",
+      "query_filename": "12_V-17.png",
+      "predicted_label": "V-17",
+      "top1_ok": true,
+      "top3_ok": true,
+      "top_matches": [
+        {
+          "label": "V-17",
+          "filename": "12_V-17.png",
+          "similarity": 0.994048,
+          "center": {
+            "lat": 52.73777593942104,
+            "lng": 33.48437470894256
+          },
+          "bounds": {
+            "south": 52.66511606246889,
+            "west": 33.41171483199041,
+            "north": 52.81043581637319,
+            "east": 33.55703458589471
+          }
+        },
+        {
+          "label": "W-17",
+          "filename": "13_W-17.png",
+          "similarity": 0.963403,
+          "center": {
+            "lat": 52.73777593942104,
+            "lng": 33.629694462846864
+          },
+          "bounds": {
+            "south": 52.66511606246889,
+            "west": 33.55703458589471,
+            "north": 52.81043581637319,
+            "east": 33.702354339799015
+          }
+        },
+        {
+          "label": "AQ-32",
+          "filename": "43_AQ-32.png",
+          "similarity": 0.959009,
+          "center": {
+            "lat": 54.91757224798562,
+            "lng": 36.53608954093297
+          },
+          "bounds": {
+            "south": 54.844912371033466,
+            "west": 36.46342966398082,
+            "north": 54.99023212493777,
+            "east": 36.60874941788512
+          }
+        }
+      ]
+    },
+    {
+      "query_label": "W-17",
+      "query_filename": "13_W-17.png",
+      "predicted_label": "W-17",
+      "top1_ok": true,
+      "top3_ok": true,
+      "top_matches": [
+        {
+          "label": "W-17",
+          "filename": "13_W-17.png",
+          "similarity": 0.993933,
+          "center": {
+            "lat": 52.73777593942104,
+            "lng": 33.629694462846864
+          },
+          "bounds": {
+            "south": 52.66511606246889,
+            "west": 33.55703458589471,
+            "north": 52.81043581637319,
+            "east": 33.702354339799015
+          }
+        },
+        {
+          "label": "V-17",
+          "filename": "12_V-17.png",
+          "similarity": 0.93834,
+          "center": {
+            "lat": 52.73777593942104,
+            "lng": 33.48437470894256
+          },
+          "bounds": {
+            "south": 52.66511606246889,
+            "west": 33.41171483199041,
+            "north": 52.81043581637319,
+            "east": 33.55703458589471
+          }
+        },
+        {
+          "label": "AQ-32",
+          "filename": "43_AQ-32.png",
+          "similarity": 0.918834,
+          "center": {
+            "lat": 54.91757224798562,
+            "lng": 36.53608954093297
+          },
+          "bounds": {
+            "south": 54.844912371033466,
+            "west": 36.46342966398082,
+            "north": 54.99023212493777,
+            "east": 36.60874941788512
+          }
+        }
+      ]
+    },
+    {
+      "query_label": "W-18",
+      "query_filename": "14_W-18.png",
+      "predicted_label": "W-18",
+      "top1_ok": true,
+      "top3_ok": true,
+      "top_matches": [
+        {
+          "label": "W-18",
+          "filename": "14_W-18.png",
+          "similarity": 0.994488,
+          "center": {
+            "lat": 52.883095693325345,
+            "lng": 33.629694462846864
+          },
+          "bounds": {
+            "south": 52.81043581637319,
+            "west": 33.55703458589471,
+            "north": 52.955755570277496,
+            "east": 33.702354339799015
+          }
+        },
+        {
+          "label": "AU-36",
+          "filename": "50_AU-36.png",
+          "similarity": 0.959855,
+          "center": {
+            "lat": 55.49885126360284,
+            "lng": 37.11736855655019
+          },
+          "bounds": {
+            "south": 55.426191386650686,
+            "west": 37.04470867959804,
+            "north": 55.57151114055499,
+            "east": 37.19002843350234
+          }
+        },
+        {
+          "label": "AB-21",
+          "filename": "21_AB-21.png",
+          "similarity": 0.959676,
+          "center": {
+            "lat": 53.31905495503826,
+            "lng": 34.356293232368394
+          },
+          "bounds": {
+            "south": 53.24639507808611,
+            "west": 34.28363335541624,
+            "north": 53.39171483199041,
+            "east": 34.428953109320545
+          }
+        }
+      ]
+    },
+    {
+      "query_label": "X-18",
+      "query_filename": "15_X-18.png",
+      "predicted_label": "X-18",
+      "top1_ok": true,
+      "top3_ok": true,
+      "top_matches": [
+        {
+          "label": "X-18",
+          "filename": "15_X-18.png",
+          "similarity": 0.994385,
+          "center": {
+            "lat": 52.883095693325345,
+            "lng": 33.775014216751174
+          },
+          "bounds": {
+            "south": 52.81043581637319,
+            "west": 33.70235433979902,
+            "north": 52.955755570277496,
+            "east": 33.847674093703326
+          }
+        },
+        {
+          "label": "AB-22",
+          "filename": "22_AB-22.png",
+          "similarity": 0.970458,
+          "center": {
+            "lat": 53.464374708942564,
+            "lng": 34.356293232368394
+          },
+          "bounds": {
+            "south": 53.39171483199041,
+            "west": 34.28363335541624,
+            "north": 53.537034585894716,
+            "east": 34.428953109320545
+          }
+        },
+        {
+          "label": "AU-35",
+          "filename": "49_AU-35.png",
+          "similarity": 0.967787,
+          "center": {
+            "lat": 55.353531509698534,
+            "lng": 37.11736855655019
+          },
+          "bounds": {
+            "south": 55.28087163274638,
+            "west": 37.04470867959804,
+            "north": 55.426191386650686,
+            "east": 37.19002843350234
+          }
+        }
+      ]
+    },
+    {
+      "query_label": "X-19",
+      "query_filename": "16_X-19.png",
+      "predicted_label": "X-19",
+      "top1_ok": true,
+      "top3_ok": true,
+      "top_matches": [
+        {
+          "label": "X-19",
+          "filename": "16_X-19.png",
+          "similarity": 0.991825,
+          "center": {
+            "lat": 53.02841544722965,
+            "lng": 33.775014216751174
+          },
+          "bounds": {
+            "south": 52.955755570277496,
+            "west": 33.70235433979902,
+            "north": 53.1010753241818,
+            "east": 33.847674093703326
+          }
+        },
+        {
+          "label": "AQ-32",
+          "filename": "43_AQ-32.png",
+          "similarity": 0.980203,
+          "center": {
+            "lat": 54.91757224798562,
+            "lng": 36.53608954093297
+          },
+          "bounds": {
+            "south": 54.844912371033466,
+            "west": 36.46342966398082,
+            "north": 54.99023212493777,
+            "east": 36.60874941788512
+          }
+        },
+        {
+          "label": "AT-35",
+          "filename": "48_AT-35.png",
+          "similarity": 0.976222,
+          "center": {
+            "lat": 55.353531509698534,
+            "lng": 36.97204880264589
+          },
+          "bounds": {
+            "south": 55.28087163274638,
+            "west": 36.899388925693735,
+            "north": 55.426191386650686,
+            "east": 37.04470867959804
+          }
+        }
+      ]
+    },
+    {
+      "query_label": "Y-19",
+      "query_filename": "17_Y-19.png",
+      "predicted_label": "Y-19",
+      "top1_ok": true,
+      "top3_ok": true,
+      "top_matches": [
+        {
+          "label": "Y-19",
+          "filename": "17_Y-19.png",
+          "similarity": 0.987709,
+          "center": {
+            "lat": 53.02841544722965,
+            "lng": 33.92033397065548
+          },
+          "bounds": {
+            "south": 52.955755570277496,
+            "west": 33.847674093703326,
+            "north": 53.1010753241818,
+            "east": 33.99299384760763
+          }
+        },
+        {
+          "label": "AQ-33",
+          "filename": "44_AQ-33.png",
+          "similarity": 0.953642,
+          "center": {
+            "lat": 55.06289200188992,
+            "lng": 36.53608954093297
+          },
+          "bounds": {
+            "south": 54.99023212493777,
+            "west": 36.46342966398082,
+            "north": 55.13555187884207,
+            "east": 36.60874941788512
+          }
+        },
+        {
+          "label": "AW-37",
+          "filename": "52_AW-37.png",
+          "similarity": 0.951246,
+          "center": {
+            "lat": 55.64417101750714,
+            "lng": 37.4080080643588
+          },
+          "bounds": {
+            "south": 55.57151114055499,
+            "west": 37.33534818740665,
+            "north": 55.71683089445929,
+            "east": 37.480667941310955
+          }
+        }
+      ]
+    },
+    {
+      "query_label": "Z-20",
+      "query_filename": "18_Z-20.png",
+      "predicted_label": "Z-20",
+      "top1_ok": true,
+      "top3_ok": true,
+      "top_matches": [
+        {
+          "label": "Z-20",
+          "filename": "18_Z-20.png",
+          "similarity": 0.994427,
+          "center": {
+            "lat": 53.17373520113395,
+            "lng": 34.06565372455978
+          },
+          "bounds": {
+            "south": 53.1010753241818,
+            "west": 33.99299384760763,
+            "north": 53.2463950780861,
+            "east": 34.13831360151193
+          }
+        },
+        {
+          "label": "AA-21",
+          "filename": "20_AA-21.png",
+          "similarity": 0.977084,
+          "center": {
+            "lat": 53.31905495503826,
+            "lng": 34.21097347846408
+          },
+          "bounds": {
+            "south": 53.24639507808611,
+            "west": 34.13831360151193,
+            "north": 53.39171483199041,
+            "east": 34.283633355416235
+          }
+        },
+        {
+          "label": "AM-29",
+          "filename": "37_AM-29.png",
+          "similarity": 0.974882,
+          "center": {
+            "lat": 54.4816129862727,
+            "lng": 35.95481052531575
+          },
+          "bounds": {
+            "south": 54.40895310932055,
+            "west": 35.8821506483636,
+            "north": 54.55427286322485,
+            "east": 36.0274704022679
+          }
+        }
+      ]
+    },
+    {
+      "query_label": "AA-20",
+      "query_filename": "19_AA-20.png",
+      "predicted_label": "AA-20",
+      "top1_ok": true,
+      "top3_ok": true,
+      "top_matches": [
+        {
+          "label": "AA-20",
+          "filename": "19_AA-20.png",
+          "similarity": 0.9975,
+          "center": {
+            "lat": 53.17373520113395,
+            "lng": 34.21097347846408
+          },
+          "bounds": {
+            "south": 53.1010753241818,
+            "west": 34.13831360151193,
+            "north": 53.2463950780861,
+            "east": 34.283633355416235
+          }
+        },
+        {
+          "label": "S-14",
+          "filename": "07_S-14.png",
+          "similarity": 0.971162,
+          "center": {
+            "lat": 52.301816677708125,
+            "lng": 33.048415447229644
+          },
+          "bounds": {
+            "south": 52.22915680075597,
+            "west": 32.97575557027749,
+            "north": 52.374476554660276,
+            "east": 33.121075324181795
+          }
+        },
+        {
+          "label": "AH-26",
+          "filename": "30_AH-26.png",
+          "similarity": 0.970022,
+          "center": {
+            "lat": 54.045653724559784,
+            "lng": 35.22821175579422
+          },
+          "bounds": {
+            "south": 53.97299384760763,
+            "west": 35.15555187884207,
+            "north": 54.118313601511936,
+            "east": 35.30087163274637
+          }
+        }
+      ]
+    },
+    {
+      "query_label": "AA-21",
+      "query_filename": "20_AA-21.png",
+      "predicted_label": "AA-21",
+      "top1_ok": true,
+      "top3_ok": true,
+      "top_matches": [
+        {
+          "label": "AA-21",
+          "filename": "20_AA-21.png",
+          "similarity": 0.995474,
+          "center": {
+            "lat": 53.31905495503826,
+            "lng": 34.21097347846408
+          },
+          "bounds": {
+            "south": 53.24639507808611,
+            "west": 34.13831360151193,
+            "north": 53.39171483199041,
+            "east": 34.283633355416235
+          }
+        },
+        {
+          "label": "AM-29",
+          "filename": "37_AM-29.png",
+          "similarity": 0.982224,
+          "center": {
+            "lat": 54.4816129862727,
+            "lng": 35.95481052531575
+          },
+          "bounds": {
+            "south": 54.40895310932055,
+            "west": 35.8821506483636,
+            "north": 54.55427286322485,
+            "east": 36.0274704022679
+          }
+        },
+        {
+          "label": "Z-20",
+          "filename": "18_Z-20.png",
+          "similarity": 0.978818,
+          "center": {
+            "lat": 53.17373520113395,
+            "lng": 34.06565372455978
+          },
+          "bounds": {
+            "south": 53.1010753241818,
+            "west": 33.99299384760763,
+            "north": 53.2463950780861,
+            "east": 34.13831360151193
+          }
+        }
+      ]
+    },
+    {
+      "query_label": "AB-21",
+      "query_filename": "21_AB-21.png",
+      "predicted_label": "AB-21",
+      "top1_ok": true,
+      "top3_ok": true,
+      "top_matches": [
+        {
+          "label": "AB-21",
+          "filename": "21_AB-21.png",
+          "similarity": 0.995077,
+          "center": {
+            "lat": 53.31905495503826,
+            "lng": 34.356293232368394
+          },
+          "bounds": {
+            "south": 53.24639507808611,
+            "west": 34.28363335541624,
+            "north": 53.39171483199041,
+            "east": 34.428953109320545
+          }
+        },
+        {
+          "label": "AR-33",
+          "filename": "45_AR-33.png",
+          "similarity": 0.958594,
+          "center": {
+            "lat": 55.06289200188992,
+            "lng": 36.68140929483727
+          },
+          "bounds": {
+            "south": 54.99023212493777,
+            "west": 36.60874941788512,
+            "north": 55.13555187884207,
+            "east": 36.754069171789425
+          }
+        },
+        {
+          "label": "W-18",
+          "filename": "14_W-18.png",
+          "similarity": 0.957681,
+          "center": {
+            "lat": 52.883095693325345,
+            "lng": 33.629694462846864
+          },
+          "bounds": {
+            "south": 52.81043581637319,
+            "west": 33.55703458589471,
+            "north": 52.955755570277496,
+            "east": 33.702354339799015
+          }
+        }
+      ]
+    },
+    {
+      "query_label": "AB-22",
+      "query_filename": "22_AB-22.png",
+      "predicted_label": "AB-22",
+      "top1_ok": true,
+      "top3_ok": true,
+      "top_matches": [
+        {
+          "label": "AB-22",
+          "filename": "22_AB-22.png",
+          "similarity": 0.995497,
+          "center": {
+            "lat": 53.464374708942564,
+            "lng": 34.356293232368394
+          },
+          "bounds": {
+            "south": 53.39171483199041,
+            "west": 34.28363335541624,
+            "north": 53.537034585894716,
+            "east": 34.428953109320545
+          }
+        },
+        {
+          "label": "AU-35",
+          "filename": "49_AU-35.png",
+          "similarity": 0.980902,
+          "center": {
+            "lat": 55.353531509698534,
+            "lng": 37.11736855655019
+          },
+          "bounds": {
+            "south": 55.28087163274638,
+            "west": 37.04470867959804,
+            "north": 55.426191386650686,
+            "east": 37.19002843350234
+          }
+        },
+        {
+          "label": "AT-34",
+          "filename": "47_AT-34.png",
+          "similarity": 0.973578,
+          "center": {
+            "lat": 55.208211755794224,
+            "lng": 36.97204880264589
+          },
+          "bounds": {
+            "south": 55.13555187884207,
+            "west": 36.899388925693735,
+            "north": 55.280871632746376,
+            "east": 37.04470867959804
+          }
+        }
+      ]
+    },
+    {
+      "query_label": "AC-22",
+      "query_filename": "23_AC-22.png",
+      "predicted_label": "AC-22",
+      "top1_ok": true,
+      "top3_ok": true,
+      "top_matches": [
+        {
+          "label": "AC-22",
+          "filename": "23_AC-22.png",
+          "similarity": 0.992854,
+          "center": {
+            "lat": 53.464374708942564,
+            "lng": 34.5016129862727
+          },
+          "bounds": {
+            "south": 53.39171483199041,
+            "west": 34.428953109320545,
+            "north": 53.537034585894716,
+            "east": 34.57427286322485
+          }
+        },
+        {
+          "label": "X-19",
+          "filename": "16_X-19.png",
+          "similarity": 0.968147,
+          "center": {
+            "lat": 53.02841544722965,
+            "lng": 33.775014216751174
+          },
+          "bounds": {
+            "south": 52.955755570277496,
+            "west": 33.70235433979902,
+            "north": 53.1010753241818,
+            "east": 33.847674093703326
+          }
+        },
+        {
+          "label": "AN-30",
+          "filename": "39_AN-30.png",
+          "similarity": 0.96398,
+          "center": {
+            "lat": 54.626932740177004,
+            "lng": 36.10013027922005
+          },
+          "bounds": {
+            "south": 54.55427286322485,
+            "west": 36.0274704022679,
+            "north": 54.699592617129156,
+            "east": 36.172790156172205
+          }
+        }
+      ]
+    },
+    {
+      "query_label": "AD-23",
+      "query_filename": "24_AD-23.png",
+      "predicted_label": "AD-23",
+      "top1_ok": true,
+      "top3_ok": true,
+      "top_matches": [
+        {
+          "label": "AD-23",
+          "filename": "24_AD-23.png",
+          "similarity": 0.996313,
+          "center": {
+            "lat": 53.60969446284687,
+            "lng": 34.646932740177
+          },
+          "bounds": {
+            "south": 53.537034585894716,
+            "west": 34.57427286322485,
+            "north": 53.68235433979902,
+            "east": 34.71959261712915
+          }
+        },
+        {
+          "label": "AT-34",
+          "filename": "47_AT-34.png",
+          "similarity": 0.975776,
+          "center": {
+            "lat": 55.208211755794224,
+            "lng": 36.97204880264589
+          },
+          "bounds": {
+            "south": 55.13555187884207,
+            "west": 36.899388925693735,
+            "north": 55.280871632746376,
+            "east": 37.04470867959804
+          }
+        },
+        {
+          "label": "AG-25",
+          "filename": "29_AG-25.png",
+          "similarity": 0.974433,
+          "center": {
+            "lat": 53.90033397065548,
+            "lng": 35.08289200188992
+          },
+          "bounds": {
+            "south": 53.82767409370333,
+            "west": 35.010232124937765,
+            "north": 53.97299384760763,
+            "east": 35.15555187884207
+          }
+        }
+      ]
+    },
+    {
+      "query_label": "AE-23",
+      "query_filename": "25_AE-23.png",
+      "predicted_label": "AE-23",
+      "top1_ok": true,
+      "top3_ok": true,
+      "top_matches": [
+        {
+          "label": "AE-23",
+          "filename": "25_AE-23.png",
+          "similarity": 0.994597,
+          "center": {
+            "lat": 53.60969446284687,
+            "lng": 34.7922524940813
+          },
+          "bounds": {
+            "south": 53.537034585894716,
+            "west": 34.71959261712915,
+            "north": 53.68235433979902,
+            "east": 34.864912371033455
+          }
+        },
+        {
+          "label": "AS-34",
+          "filename": "46_AS-34.png",
+          "similarity": 0.979495,
+          "center": {
+            "lat": 55.208211755794224,
+            "lng": 36.826729048741576
+          },
+          "bounds": {
+            "south": 55.13555187884207,
+            "west": 36.754069171789425,
+            "north": 55.280871632746376,
+            "east": 36.89938892569373
+          }
+        },
+        {
+          "label": "AT-35",
+          "filename": "48_AT-35.png",
+          "similarity": 0.968911,
+          "center": {
+            "lat": 55.353531509698534,
+            "lng": 36.97204880264589
+          },
+          "bounds": {
+            "south": 55.28087163274638,
+            "west": 36.899388925693735,
+            "north": 55.426191386650686,
+            "east": 37.04470867959804
+          }
+        }
+      ]
+    },
+    {
+      "query_label": "AE-24",
+      "query_filename": "26_AE-24.png",
+      "predicted_label": "AE-24",
+      "top1_ok": true,
+      "top3_ok": true,
+      "top_matches": [
+        {
+          "label": "AE-24",
+          "filename": "26_AE-24.png",
+          "similarity": 0.996952,
+          "center": {
+            "lat": 53.75501421675118,
+            "lng": 34.7922524940813
+          },
+          "bounds": {
+            "south": 53.682354339799026,
+            "west": 34.71959261712915,
+            "north": 53.82767409370333,
+            "east": 34.864912371033455
+          }
+        },
+        {
+          "label": "AT-34",
+          "filename": "47_AT-34.png",
+          "similarity": 0.979068,
+          "center": {
+            "lat": 55.208211755794224,
+            "lng": 36.97204880264589
+          },
+          "bounds": {
+            "south": 55.13555187884207,
+            "west": 36.899388925693735,
+            "north": 55.280871632746376,
+            "east": 37.04470867959804
+          }
+        },
+        {
+          "label": "AD-23",
+          "filename": "24_AD-23.png",
+          "similarity": 0.972802,
+          "center": {
+            "lat": 53.60969446284687,
+            "lng": 34.646932740177
+          },
+          "bounds": {
+            "south": 53.537034585894716,
+            "west": 34.57427286322485,
+            "north": 53.68235433979902,
+            "east": 34.71959261712915
+          }
+        }
+      ]
+    },
+    {
+      "query_label": "AF-24",
+      "query_filename": "27_AF-24.png",
+      "predicted_label": "AF-24",
+      "top1_ok": true,
+      "top3_ok": true,
+      "top_matches": [
+        {
+          "label": "AF-24",
+          "filename": "27_AF-24.png",
+          "similarity": 0.996108,
+          "center": {
+            "lat": 53.75501421675118,
+            "lng": 34.937572247985614
+          },
+          "bounds": {
+            "south": 53.682354339799026,
+            "west": 34.86491237103346,
+            "north": 53.82767409370333,
+            "east": 35.010232124937765
+          }
+        },
+        {
+          "label": "AF-25",
+          "filename": "28_AF-25.png",
+          "similarity": 0.982692,
+          "center": {
+            "lat": 53.90033397065548,
+            "lng": 34.937572247985614
+          },
+          "bounds": {
+            "south": 53.82767409370333,
+            "west": 34.86491237103346,
+            "north": 53.97299384760763,
+            "east": 35.010232124937765
+          }
+        },
+        {
+          "label": "AG-25",
+          "filename": "29_AG-25.png",
+          "similarity": 0.980907,
+          "center": {
+            "lat": 53.90033397065548,
+            "lng": 35.08289200188992
+          },
+          "bounds": {
+            "south": 53.82767409370333,
+            "west": 35.010232124937765,
+            "north": 53.97299384760763,
+            "east": 35.15555187884207
+          }
+        }
+      ]
+    },
+    {
+      "query_label": "AF-25",
+      "query_filename": "28_AF-25.png",
+      "predicted_label": "AF-25",
+      "top1_ok": true,
+      "top3_ok": true,
+      "top_matches": [
+        {
+          "label": "AF-25",
+          "filename": "28_AF-25.png",
+          "similarity": 0.994639,
+          "center": {
+            "lat": 53.90033397065548,
+            "lng": 34.937572247985614
+          },
+          "bounds": {
+            "south": 53.82767409370333,
+            "west": 34.86491237103346,
+            "north": 53.97299384760763,
+            "east": 35.010232124937765
+          }
+        },
+        {
+          "label": "AF-24",
+          "filename": "27_AF-24.png",
+          "similarity": 0.979796,
+          "center": {
+            "lat": 53.75501421675118,
+            "lng": 34.937572247985614
+          },
+          "bounds": {
+            "south": 53.682354339799026,
+            "west": 34.86491237103346,
+            "north": 53.82767409370333,
+            "east": 35.010232124937765
+          }
+        },
+        {
+          "label": "Q-13",
+          "filename": "04_Q-13.png",
+          "similarity": 0.972526,
+          "center": {
+            "lat": 52.156496923803815,
+            "lng": 32.75777593942104
+          },
+          "bounds": {
+            "south": 52.08383704685166,
+            "west": 32.685116062468886,
+            "north": 52.229156800755966,
+            "east": 32.83043581637319
+          }
+        }
+      ]
+    },
+    {
+      "query_label": "AG-25",
+      "query_filename": "29_AG-25.png",
+      "predicted_label": "AG-25",
+      "top1_ok": true,
+      "top3_ok": true,
+      "top_matches": [
+        {
+          "label": "AG-25",
+          "filename": "29_AG-25.png",
+          "similarity": 0.997103,
+          "center": {
+            "lat": 53.90033397065548,
+            "lng": 35.08289200188992
+          },
+          "bounds": {
+            "south": 53.82767409370333,
+            "west": 35.010232124937765,
+            "north": 53.97299384760763,
+            "east": 35.15555187884207
+          }
+        },
+        {
+          "label": "AF-24",
+          "filename": "27_AF-24.png",
+          "similarity": 0.978996,
+          "center": {
+            "lat": 53.75501421675118,
+            "lng": 34.937572247985614
+          },
+          "bounds": {
+            "south": 53.682354339799026,
+            "west": 34.86491237103346,
+            "north": 53.82767409370333,
+            "east": 35.010232124937765
+          }
+        },
+        {
+          "label": "AP-32",
+          "filename": "42_AP-32.png",
+          "similarity": 0.977366,
+          "center": {
+            "lat": 54.91757224798562,
+            "lng": 36.39076978702867
+          },
+          "bounds": {
+            "south": 54.844912371033466,
+            "west": 36.318109910076515,
+            "north": 54.99023212493777,
+            "east": 36.46342966398082
+          }
+        }
+      ]
+    },
+    {
+      "query_label": "AH-26",
+      "query_filename": "30_AH-26.png",
+      "predicted_label": "AH-26",
+      "top1_ok": true,
+      "top3_ok": true,
+      "top_matches": [
+        {
+          "label": "AH-26",
+          "filename": "30_AH-26.png",
+          "similarity": 0.995708,
+          "center": {
+            "lat": 54.045653724559784,
+            "lng": 35.22821175579422
+          },
+          "bounds": {
+            "south": 53.97299384760763,
+            "west": 35.15555187884207,
+            "north": 54.118313601511936,
+            "east": 35.30087163274637
+          }
+        },
+        {
+          "label": "S-14",
+          "filename": "07_S-14.png",
+          "similarity": 0.982859,
+          "center": {
+            "lat": 52.301816677708125,
+            "lng": 33.048415447229644
+          },
+          "bounds": {
+            "south": 52.22915680075597,
+            "west": 32.97575557027749,
+            "north": 52.374476554660276,
+            "east": 33.121075324181795
+          }
+        },
+        {
+          "label": "AO-31",
+          "filename": "40_AO-31.png",
+          "similarity": 0.97234,
+          "center": {
+            "lat": 54.77225249408131,
+            "lng": 36.24545003312436
+          },
+          "bounds": {
+            "south": 54.699592617129156,
+            "west": 36.172790156172205,
+            "north": 54.84491237103346,
+            "east": 36.31810991007651
+          }
+        }
+      ]
+    },
+    {
+      "query_label": "AI-26",
+      "query_filename": "31_AI-26.png",
+      "predicted_label": "AI-26",
+      "top1_ok": true,
+      "top3_ok": true,
+      "top_matches": [
+        {
+          "label": "AI-26",
+          "filename": "31_AI-26.png",
+          "similarity": 0.997099,
+          "center": {
+            "lat": 54.045653724559784,
+            "lng": 35.37353150969853
+          },
+          "bounds": {
+            "south": 53.97299384760763,
+            "west": 35.30087163274638,
+            "north": 54.118313601511936,
+            "east": 35.44619138665068
+          }
+        },
+        {
+          "label": "AL-29",
+          "filename": "36_AL-29.png",
+          "similarity": 0.972647,
+          "center": {
+            "lat": 54.4816129862727,
+            "lng": 35.80949077141144
+          },
+          "bounds": {
+            "south": 54.40895310932055,
+            "west": 35.73683089445929,
+            "north": 54.55427286322485,
+            "east": 35.88215064836359
+          }
+        },
+        {
+          "label": "AM-29",
+          "filename": "37_AM-29.png",
+          "similarity": 0.956365,
+          "center": {
+            "lat": 54.4816129862727,
+            "lng": 35.95481052531575
+          },
+          "bounds": {
+            "south": 54.40895310932055,
+            "west": 35.8821506483636,
+            "north": 54.55427286322485,
+            "east": 36.0274704022679
+          }
+        }
+      ]
+    },
+    {
+      "query_label": "AI-27",
+      "query_filename": "32_AI-27.png",
+      "predicted_label": "AI-27",
+      "top1_ok": true,
+      "top3_ok": true,
+      "top_matches": [
+        {
+          "label": "AI-27",
+          "filename": "32_AI-27.png",
+          "similarity": 0.997114,
+          "center": {
+            "lat": 54.19097347846409,
+            "lng": 35.37353150969853
+          },
+          "bounds": {
+            "south": 54.118313601511936,
+            "west": 35.30087163274638,
+            "north": 54.26363335541624,
+            "east": 35.44619138665068
+          }
+        },
+        {
+          "label": "AJ-27",
+          "filename": "33_AJ-27.png",
+          "similarity": 0.982157,
+          "center": {
+            "lat": 54.19097347846409,
+            "lng": 35.51885126360283
+          },
+          "bounds": {
+            "south": 54.118313601511936,
+            "west": 35.44619138665068,
+            "north": 54.26363335541624,
+            "east": 35.591511140554985
+          }
+        },
+        {
+          "label": "AL-29",
+          "filename": "36_AL-29.png",
+          "similarity": 0.974823,
+          "center": {
+            "lat": 54.4816129862727,
+            "lng": 35.80949077141144
+          },
+          "bounds": {
+            "south": 54.40895310932055,
+            "west": 35.73683089445929,
+            "north": 54.55427286322485,
+            "east": 35.88215064836359
+          }
+        }
+      ]
+    },
+    {
+      "query_label": "AJ-27",
+      "query_filename": "33_AJ-27.png",
+      "predicted_label": "AJ-27",
+      "top1_ok": true,
+      "top3_ok": true,
+      "top_matches": [
+        {
+          "label": "AJ-27",
+          "filename": "33_AJ-27.png",
+          "similarity": 0.998172,
+          "center": {
+            "lat": 54.19097347846409,
+            "lng": 35.51885126360283
+          },
+          "bounds": {
+            "south": 54.118313601511936,
+            "west": 35.44619138665068,
+            "north": 54.26363335541624,
+            "east": 35.591511140554985
+          }
+        },
+        {
+          "label": "AI-27",
+          "filename": "32_AI-27.png",
+          "similarity": 0.986146,
+          "center": {
+            "lat": 54.19097347846409,
+            "lng": 35.37353150969853
+          },
+          "bounds": {
+            "south": 54.118313601511936,
+            "west": 35.30087163274638,
+            "north": 54.26363335541624,
+            "east": 35.44619138665068
+          }
+        },
+        {
+          "label": "AA-21",
+          "filename": "20_AA-21.png",
+          "similarity": 0.978794,
+          "center": {
+            "lat": 53.31905495503826,
+            "lng": 34.21097347846408
+          },
+          "bounds": {
+            "south": 53.24639507808611,
+            "west": 34.13831360151193,
+            "north": 53.39171483199041,
+            "east": 34.283633355416235
+          }
+        }
+      ]
+    },
+    {
+      "query_label": "AK-28",
+      "query_filename": "34_AK-28.png",
+      "predicted_label": "AK-28",
+      "top1_ok": true,
+      "top3_ok": true,
+      "top_matches": [
+        {
+          "label": "AK-28",
+          "filename": "34_AK-28.png",
+          "similarity": 0.993203,
+          "center": {
+            "lat": 54.3362932323684,
+            "lng": 35.66417101750714
+          },
+          "bounds": {
+            "south": 54.263633355416246,
+            "west": 35.591511140554985,
+            "north": 54.40895310932055,
+            "east": 35.73683089445929
+          }
+        },
+        {
+          "label": "S-15",
+          "filename": "08_S-15.png",
+          "similarity": 0.931627,
+          "center": {
+            "lat": 52.44713643161243,
+            "lng": 33.048415447229644
+          },
+          "bounds": {
+            "south": 52.374476554660276,
+            "west": 32.97575557027749,
+            "north": 52.51979630856458,
+            "east": 33.121075324181795
+          }
+        },
+        {
+          "label": "AW-37",
+          "filename": "52_AW-37.png",
+          "similarity": 0.921439,
+          "center": {
+            "lat": 55.64417101750714,
+            "lng": 37.4080080643588
+          },
+          "bounds": {
+            "south": 55.57151114055499,
+            "west": 37.33534818740665,
+            "north": 55.71683089445929,
+            "east": 37.480667941310955
+          }
+        }
+      ]
+    },
+    {
+      "query_label": "AL-28",
+      "query_filename": "35_AL-28.png",
+      "predicted_label": "AL-28",
+      "top1_ok": true,
+      "top3_ok": true,
+      "top_matches": [
+        {
+          "label": "AL-28",
+          "filename": "35_AL-28.png",
+          "similarity": 0.997481,
+          "center": {
+            "lat": 54.3362932323684,
+            "lng": 35.80949077141144
+          },
+          "bounds": {
+            "south": 54.263633355416246,
+            "west": 35.73683089445929,
+            "north": 54.40895310932055,
+            "east": 35.88215064836359
+          }
+        },
+        {
+          "label": "AJ-27",
+          "filename": "33_AJ-27.png",
+          "similarity": 0.980382,
+          "center": {
+            "lat": 54.19097347846409,
+            "lng": 35.51885126360283
+          },
+          "bounds": {
+            "south": 54.118313601511936,
+            "west": 35.44619138665068,
+            "north": 54.26363335541624,
+            "east": 35.591511140554985
+          }
+        },
+        {
+          "label": "AL-29",
+          "filename": "36_AL-29.png",
+          "similarity": 0.976184,
+          "center": {
+            "lat": 54.4816129862727,
+            "lng": 35.80949077141144
+          },
+          "bounds": {
+            "south": 54.40895310932055,
+            "west": 35.73683089445929,
+            "north": 54.55427286322485,
+            "east": 35.88215064836359
+          }
+        }
+      ]
+    },
+    {
+      "query_label": "AL-29",
+      "query_filename": "36_AL-29.png",
+      "predicted_label": "AL-29",
+      "top1_ok": true,
+      "top3_ok": true,
+      "top_matches": [
+        {
+          "label": "AL-29",
+          "filename": "36_AL-29.png",
+          "similarity": 0.998433,
+          "center": {
+            "lat": 54.4816129862727,
+            "lng": 35.80949077141144
+          },
+          "bounds": {
+            "south": 54.40895310932055,
+            "west": 35.73683089445929,
+            "north": 54.55427286322485,
+            "east": 35.88215064836359
+          }
+        },
+        {
+          "label": "T-15",
+          "filename": "09_T-15.png",
+          "similarity": 0.980908,
+          "center": {
+            "lat": 52.44713643161243,
+            "lng": 33.19373520113395
+          },
+          "bounds": {
+            "south": 52.374476554660276,
+            "west": 33.121075324181795,
+            "north": 52.51979630856458,
+            "east": 33.2663950780861
+          }
+        },
+        {
+          "label": "AI-26",
+          "filename": "31_AI-26.png",
+          "similarity": 0.978026,
+          "center": {
+            "lat": 54.045653724559784,
+            "lng": 35.37353150969853
+          },
+          "bounds": {
+            "south": 53.97299384760763,
+            "west": 35.30087163274638,
+            "north": 54.118313601511936,
+            "east": 35.44619138665068
+          }
+        }
+      ]
+    },
+    {
+      "query_label": "AM-29",
+      "query_filename": "37_AM-29.png",
+      "predicted_label": "AM-29",
+      "top1_ok": true,
+      "top3_ok": true,
+      "top_matches": [
+        {
+          "label": "AM-29",
+          "filename": "37_AM-29.png",
+          "similarity": 0.995979,
+          "center": {
+            "lat": 54.4816129862727,
+            "lng": 35.95481052531575
+          },
+          "bounds": {
+            "south": 54.40895310932055,
+            "west": 35.8821506483636,
+            "north": 54.55427286322485,
+            "east": 36.0274704022679
+          }
+        },
+        {
+          "label": "AJ-27",
+          "filename": "33_AJ-27.png",
+          "similarity": 0.984074,
+          "center": {
+            "lat": 54.19097347846409,
+            "lng": 35.51885126360283
+          },
+          "bounds": {
+            "south": 54.118313601511936,
+            "west": 35.44619138665068,
+            "north": 54.26363335541624,
+            "east": 35.591511140554985
+          }
+        },
+        {
+          "label": "AA-21",
+          "filename": "20_AA-21.png",
+          "similarity": 0.982341,
+          "center": {
+            "lat": 53.31905495503826,
+            "lng": 34.21097347846408
+          },
+          "bounds": {
+            "south": 53.24639507808611,
+            "west": 34.13831360151193,
+            "north": 53.39171483199041,
+            "east": 34.283633355416235
+          }
+        }
+      ]
+    },
+    {
+      "query_label": "AM-30",
+      "query_filename": "38_AM-30.png",
+      "predicted_label": "AM-30",
+      "top1_ok": true,
+      "top3_ok": true,
+      "top_matches": [
+        {
+          "label": "AM-30",
+          "filename": "38_AM-30.png",
+          "similarity": 0.994073,
+          "center": {
+            "lat": 54.626932740177004,
+            "lng": 35.95481052531575
+          },
+          "bounds": {
+            "south": 54.55427286322485,
+            "west": 35.8821506483636,
+            "north": 54.699592617129156,
+            "east": 36.0274704022679
+          }
+        },
+        {
+          "label": "AA-20",
+          "filename": "19_AA-20.png",
+          "similarity": 0.965876,
+          "center": {
+            "lat": 53.17373520113395,
+            "lng": 34.21097347846408
+          },
+          "bounds": {
+            "south": 53.1010753241818,
+            "west": 34.13831360151193,
+            "north": 53.2463950780861,
+            "east": 34.283633355416235
+          }
+        },
+        {
+          "label": "AR-33",
+          "filename": "45_AR-33.png",
+          "similarity": 0.960698,
+          "center": {
+            "lat": 55.06289200188992,
+            "lng": 36.68140929483727
+          },
+          "bounds": {
+            "south": 54.99023212493777,
+            "west": 36.60874941788512,
+            "north": 55.13555187884207,
+            "east": 36.754069171789425
+          }
+        }
+      ]
+    },
+    {
+      "query_label": "AN-30",
+      "query_filename": "39_AN-30.png",
+      "predicted_label": "AN-30",
+      "top1_ok": true,
+      "top3_ok": true,
+      "top_matches": [
+        {
+          "label": "AN-30",
+          "filename": "39_AN-30.png",
+          "similarity": 0.993439,
+          "center": {
+            "lat": 54.626932740177004,
+            "lng": 36.10013027922005
+          },
+          "bounds": {
+            "south": 54.55427286322485,
+            "west": 36.0274704022679,
+            "north": 54.699592617129156,
+            "east": 36.172790156172205
+          }
+        },
+        {
+          "label": "AT-35",
+          "filename": "48_AT-35.png",
+          "similarity": 0.976477,
+          "center": {
+            "lat": 55.353531509698534,
+            "lng": 36.97204880264589
+          },
+          "bounds": {
+            "south": 55.28087163274638,
+            "west": 36.899388925693735,
+            "north": 55.426191386650686,
+            "east": 37.04470867959804
+          }
+        },
+        {
+          "label": "X-19",
+          "filename": "16_X-19.png",
+          "similarity": 0.972819,
+          "center": {
+            "lat": 53.02841544722965,
+            "lng": 33.775014216751174
+          },
+          "bounds": {
+            "south": 52.955755570277496,
+            "west": 33.70235433979902,
+            "north": 53.1010753241818,
+            "east": 33.847674093703326
+          }
+        }
+      ]
+    },
+    {
+      "query_label": "AO-31",
+      "query_filename": "40_AO-31.png",
+      "predicted_label": "AO-31",
+      "top1_ok": true,
+      "top3_ok": true,
+      "top_matches": [
+        {
+          "label": "AO-31",
+          "filename": "40_AO-31.png",
+          "similarity": 0.994511,
+          "center": {
+            "lat": 54.77225249408131,
+            "lng": 36.24545003312436
+          },
+          "bounds": {
+            "south": 54.699592617129156,
+            "west": 36.172790156172205,
+            "north": 54.84491237103346,
+            "east": 36.31810991007651
+          }
+        },
+        {
+          "label": "AT-34",
+          "filename": "47_AT-34.png",
+          "similarity": 0.970076,
+          "center": {
+            "lat": 55.208211755794224,
+            "lng": 36.97204880264589
+          },
+          "bounds": {
+            "south": 55.13555187884207,
+            "west": 36.899388925693735,
+            "north": 55.280871632746376,
+            "east": 37.04470867959804
+          }
+        },
+        {
+          "label": "AG-25",
+          "filename": "29_AG-25.png",
+          "similarity": 0.968792,
+          "center": {
+            "lat": 53.90033397065548,
+            "lng": 35.08289200188992
+          },
+          "bounds": {
+            "south": 53.82767409370333,
+            "west": 35.010232124937765,
+            "north": 53.97299384760763,
+            "east": 35.15555187884207
+          }
+        }
+      ]
+    },
+    {
+      "query_label": "AP-31",
+      "query_filename": "41_AP-31.png",
+      "predicted_label": "AP-31",
+      "top1_ok": true,
+      "top3_ok": true,
+      "top_matches": [
+        {
+          "label": "AP-31",
+          "filename": "41_AP-31.png",
+          "similarity": 0.994673,
+          "center": {
+            "lat": 54.77225249408131,
+            "lng": 36.39076978702867
+          },
+          "bounds": {
+            "south": 54.699592617129156,
+            "west": 36.318109910076515,
+            "north": 54.84491237103346,
+            "east": 36.46342966398082
+          }
+        },
+        {
+          "label": "AT-34",
+          "filename": "47_AT-34.png",
+          "similarity": 0.978507,
+          "center": {
+            "lat": 55.208211755794224,
+            "lng": 36.97204880264589
+          },
+          "bounds": {
+            "south": 55.13555187884207,
+            "west": 36.899388925693735,
+            "north": 55.280871632746376,
+            "east": 37.04470867959804
+          }
+        },
+        {
+          "label": "AG-25",
+          "filename": "29_AG-25.png",
+          "similarity": 0.976632,
+          "center": {
+            "lat": 53.90033397065548,
+            "lng": 35.08289200188992
+          },
+          "bounds": {
+            "south": 53.82767409370333,
+            "west": 35.010232124937765,
+            "north": 53.97299384760763,
+            "east": 35.15555187884207
+          }
+        }
+      ]
+    },
+    {
+      "query_label": "AP-32",
+      "query_filename": "42_AP-32.png",
+      "predicted_label": "AP-32",
+      "top1_ok": true,
+      "top3_ok": true,
+      "top_matches": [
+        {
+          "label": "AP-32",
+          "filename": "42_AP-32.png",
+          "similarity": 0.9955,
+          "center": {
+            "lat": 54.91757224798562,
+            "lng": 36.39076978702867
+          },
+          "bounds": {
+            "south": 54.844912371033466,
+            "west": 36.318109910076515,
+            "north": 54.99023212493777,
+            "east": 36.46342966398082
+          }
+        },
+        {
+          "label": "AG-25",
+          "filename": "29_AG-25.png",
+          "similarity": 0.975213,
+          "center": {
+            "lat": 53.90033397065548,
+            "lng": 35.08289200188992
+          },
+          "bounds": {
+            "south": 53.82767409370333,
+            "west": 35.010232124937765,
+            "north": 53.97299384760763,
+            "east": 35.15555187884207
+          }
+        },
+        {
+          "label": "AP-31",
+          "filename": "41_AP-31.png",
+          "similarity": 0.974256,
+          "center": {
+            "lat": 54.77225249408131,
+            "lng": 36.39076978702867
+          },
+          "bounds": {
+            "south": 54.699592617129156,
+            "west": 36.318109910076515,
+            "north": 54.84491237103346,
+            "east": 36.46342966398082
+          }
+        }
+      ]
+    },
+    {
+      "query_label": "AQ-32",
+      "query_filename": "43_AQ-32.png",
+      "predicted_label": "AQ-32",
+      "top1_ok": true,
+      "top3_ok": true,
+      "top_matches": [
+        {
+          "label": "AQ-32",
+          "filename": "43_AQ-32.png",
+          "similarity": 0.997692,
+          "center": {
+            "lat": 54.91757224798562,
+            "lng": 36.53608954093297
+          },
+          "bounds": {
+            "south": 54.844912371033466,
+            "west": 36.46342966398082,
+            "north": 54.99023212493777,
+            "east": 36.60874941788512
+          }
+        },
+        {
+          "label": "AT-35",
+          "filename": "48_AT-35.png",
+          "similarity": 0.983273,
+          "center": {
+            "lat": 55.353531509698534,
+            "lng": 36.97204880264589
+          },
+          "bounds": {
+            "south": 55.28087163274638,
+            "west": 36.899388925693735,
+            "north": 55.426191386650686,
+            "east": 37.04470867959804
+          }
+        },
+        {
+          "label": "X-19",
+          "filename": "16_X-19.png",
+          "similarity": 0.970291,
+          "center": {
+            "lat": 53.02841544722965,
+            "lng": 33.775014216751174
+          },
+          "bounds": {
+            "south": 52.955755570277496,
+            "west": 33.70235433979902,
+            "north": 53.1010753241818,
+            "east": 33.847674093703326
+          }
+        }
+      ]
+    },
+    {
+      "query_label": "AQ-33",
+      "query_filename": "44_AQ-33.png",
+      "predicted_label": "AQ-33",
+      "top1_ok": true,
+      "top3_ok": true,
+      "top_matches": [
+        {
+          "label": "AQ-33",
+          "filename": "44_AQ-33.png",
+          "similarity": 0.991784,
+          "center": {
+            "lat": 55.06289200188992,
+            "lng": 36.53608954093297
+          },
+          "bounds": {
+            "south": 54.99023212493777,
+            "west": 36.46342966398082,
+            "north": 55.13555187884207,
+            "east": 36.60874941788512
+          }
+        },
+        {
+          "label": "AR-33",
+          "filename": "45_AR-33.png",
+          "similarity": 0.963054,
+          "center": {
+            "lat": 55.06289200188992,
+            "lng": 36.68140929483727
+          },
+          "bounds": {
+            "south": 54.99023212493777,
+            "west": 36.60874941788512,
+            "north": 55.13555187884207,
+            "east": 36.754069171789425
+          }
+        },
+        {
+          "label": "R-14",
+          "filename": "06_R-14.png",
+          "similarity": 0.955682,
+          "center": {
+            "lat": 52.301816677708125,
+            "lng": 32.90309569332534
+          },
+          "bounds": {
+            "south": 52.22915680075597,
+            "west": 32.83043581637319,
+            "north": 52.374476554660276,
+            "east": 32.97575557027749
+          }
+        }
+      ]
+    },
+    {
+      "query_label": "AR-33",
+      "query_filename": "45_AR-33.png",
+      "predicted_label": "AR-33",
+      "top1_ok": true,
+      "top3_ok": true,
+      "top_matches": [
+        {
+          "label": "AR-33",
+          "filename": "45_AR-33.png",
+          "similarity": 0.993088,
+          "center": {
+            "lat": 55.06289200188992,
+            "lng": 36.68140929483727
+          },
+          "bounds": {
+            "south": 54.99023212493777,
+            "west": 36.60874941788512,
+            "north": 55.13555187884207,
+            "east": 36.754069171789425
+          }
+        },
+        {
+          "label": "AQ-33",
+          "filename": "44_AQ-33.png",
+          "similarity": 0.964675,
+          "center": {
+            "lat": 55.06289200188992,
+            "lng": 36.53608954093297
+          },
+          "bounds": {
+            "south": 54.99023212493777,
+            "west": 36.46342966398082,
+            "north": 55.13555187884207,
+            "east": 36.60874941788512
+          }
+        },
+        {
+          "label": "R-14",
+          "filename": "06_R-14.png",
+          "similarity": 0.963405,
+          "center": {
+            "lat": 52.301816677708125,
+            "lng": 32.90309569332534
+          },
+          "bounds": {
+            "south": 52.22915680075597,
+            "west": 32.83043581637319,
+            "north": 52.374476554660276,
+            "east": 32.97575557027749
+          }
+        }
+      ]
+    },
+    {
+      "query_label": "AS-34",
+      "query_filename": "46_AS-34.png",
+      "predicted_label": "AS-34",
+      "top1_ok": true,
+      "top3_ok": true,
+      "top_matches": [
+        {
+          "label": "AS-34",
+          "filename": "46_AS-34.png",
+          "similarity": 0.993119,
+          "center": {
+            "lat": 55.208211755794224,
+            "lng": 36.826729048741576
+          },
+          "bounds": {
+            "south": 55.13555187884207,
+            "west": 36.754069171789425,
+            "north": 55.280871632746376,
+            "east": 36.89938892569373
+          }
+        },
+        {
+          "label": "AE-23",
+          "filename": "25_AE-23.png",
+          "similarity": 0.982163,
+          "center": {
+            "lat": 53.60969446284687,
+            "lng": 34.7922524940813
+          },
+          "bounds": {
+            "south": 53.537034585894716,
+            "west": 34.71959261712915,
+            "north": 53.68235433979902,
+            "east": 34.864912371033455
+          }
+        },
+        {
+          "label": "AT-35",
+          "filename": "48_AT-35.png",
+          "similarity": 0.978096,
+          "center": {
+            "lat": 55.353531509698534,
+            "lng": 36.97204880264589
+          },
+          "bounds": {
+            "south": 55.28087163274638,
+            "west": 36.899388925693735,
+            "north": 55.426191386650686,
+            "east": 37.04470867959804
+          }
+        }
+      ]
+    },
+    {
+      "query_label": "AT-34",
+      "query_filename": "47_AT-34.png",
+      "predicted_label": "AT-34",
+      "top1_ok": true,
+      "top3_ok": true,
+      "top_matches": [
+        {
+          "label": "AT-34",
+          "filename": "47_AT-34.png",
+          "similarity": 0.994775,
+          "center": {
+            "lat": 55.208211755794224,
+            "lng": 36.97204880264589
+          },
+          "bounds": {
+            "south": 55.13555187884207,
+            "west": 36.899388925693735,
+            "north": 55.280871632746376,
+            "east": 37.04470867959804
+          }
+        },
+        {
+          "label": "AE-24",
+          "filename": "26_AE-24.png",
+          "similarity": 0.975758,
+          "center": {
+            "lat": 53.75501421675118,
+            "lng": 34.7922524940813
+          },
+          "bounds": {
+            "south": 53.682354339799026,
+            "west": 34.71959261712915,
+            "north": 53.82767409370333,
+            "east": 34.864912371033455
+          }
+        },
+        {
+          "label": "AO-31",
+          "filename": "40_AO-31.png",
+          "similarity": 0.975532,
+          "center": {
+            "lat": 54.77225249408131,
+            "lng": 36.24545003312436
+          },
+          "bounds": {
+            "south": 54.699592617129156,
+            "west": 36.172790156172205,
+            "north": 54.84491237103346,
+            "east": 36.31810991007651
+          }
+        }
+      ]
+    },
+    {
+      "query_label": "AT-35",
+      "query_filename": "48_AT-35.png",
+      "predicted_label": "AT-35",
+      "top1_ok": true,
+      "top3_ok": true,
+      "top_matches": [
+        {
+          "label": "AT-35",
+          "filename": "48_AT-35.png",
+          "similarity": 0.995903,
+          "center": {
+            "lat": 55.353531509698534,
+            "lng": 36.97204880264589
+          },
+          "bounds": {
+            "south": 55.28087163274638,
+            "west": 36.899388925693735,
+            "north": 55.426191386650686,
+            "east": 37.04470867959804
+          }
+        },
+        {
+          "label": "AQ-32",
+          "filename": "43_AQ-32.png",
+          "similarity": 0.984344,
+          "center": {
+            "lat": 54.91757224798562,
+            "lng": 36.53608954093297
+          },
+          "bounds": {
+            "south": 54.844912371033466,
+            "west": 36.46342966398082,
+            "north": 54.99023212493777,
+            "east": 36.60874941788512
+          }
+        },
+        {
+          "label": "AS-34",
+          "filename": "46_AS-34.png",
+          "similarity": 0.974561,
+          "center": {
+            "lat": 55.208211755794224,
+            "lng": 36.826729048741576
+          },
+          "bounds": {
+            "south": 55.13555187884207,
+            "west": 36.754069171789425,
+            "north": 55.280871632746376,
+            "east": 36.89938892569373
+          }
+        }
+      ]
+    },
+    {
+      "query_label": "AU-35",
+      "query_filename": "49_AU-35.png",
+      "predicted_label": "AU-35",
+      "top1_ok": true,
+      "top3_ok": true,
+      "top_matches": [
+        {
+          "label": "AU-35",
+          "filename": "49_AU-35.png",
+          "similarity": 0.991775,
+          "center": {
+            "lat": 55.353531509698534,
+            "lng": 37.11736855655019
+          },
+          "bounds": {
+            "south": 55.28087163274638,
+            "west": 37.04470867959804,
+            "north": 55.426191386650686,
+            "east": 37.19002843350234
+          }
+        },
+        {
+          "label": "AB-22",
+          "filename": "22_AB-22.png",
+          "similarity": 0.97525,
+          "center": {
+            "lat": 53.464374708942564,
+            "lng": 34.356293232368394
+          },
+          "bounds": {
+            "south": 53.39171483199041,
+            "west": 34.28363335541624,
+            "north": 53.537034585894716,
+            "east": 34.428953109320545
+          }
+        },
+        {
+          "label": "AS-34",
+          "filename": "46_AS-34.png",
+          "similarity": 0.970053,
+          "center": {
+            "lat": 55.208211755794224,
+            "lng": 36.826729048741576
+          },
+          "bounds": {
+            "south": 55.13555187884207,
+            "west": 36.754069171789425,
+            "north": 55.280871632746376,
+            "east": 36.89938892569373
+          }
+        }
+      ]
+    },
+    {
+      "query_label": "AU-36",
+      "query_filename": "50_AU-36.png",
+      "predicted_label": "AU-36",
+      "top1_ok": true,
+      "top3_ok": true,
+      "top_matches": [
+        {
+          "label": "AU-36",
+          "filename": "50_AU-36.png",
+          "similarity": 0.989186,
+          "center": {
+            "lat": 55.49885126360284,
+            "lng": 37.11736855655019
+          },
+          "bounds": {
+            "south": 55.426191386650686,
+            "west": 37.04470867959804,
+            "north": 55.57151114055499,
+            "east": 37.19002843350234
+          }
+        },
+        {
+          "label": "AB-22",
+          "filename": "22_AB-22.png",
+          "similarity": 0.959978,
+          "center": {
+            "lat": 53.464374708942564,
+            "lng": 34.356293232368394
+          },
+          "bounds": {
+            "south": 53.39171483199041,
+            "west": 34.28363335541624,
+            "north": 53.537034585894716,
+            "east": 34.428953109320545
+          }
+        },
+        {
+          "label": "W-18",
+          "filename": "14_W-18.png",
+          "similarity": 0.958885,
+          "center": {
+            "lat": 52.883095693325345,
+            "lng": 33.629694462846864
+          },
+          "bounds": {
+            "south": 52.81043581637319,
+            "west": 33.55703458589471,
+            "north": 52.955755570277496,
+            "east": 33.702354339799015
+          }
+        }
+      ]
+    },
+    {
+      "query_label": "AV-36",
+      "query_filename": "51_AV-36.png",
+      "predicted_label": "AV-36",
+      "top1_ok": true,
+      "top3_ok": true,
+      "top_matches": [
+        {
+          "label": "AV-36",
+          "filename": "51_AV-36.png",
+          "similarity": 0.989957,
+          "center": {
+            "lat": 55.49885126360284,
+            "lng": 37.26268831045449
+          },
+          "bounds": {
+            "south": 55.426191386650686,
+            "west": 37.19002843350234,
+            "north": 55.57151114055499,
+            "east": 37.335348187406645
+          }
+        },
+        {
+          "label": "AU-36",
+          "filename": "50_AU-36.png",
+          "similarity": 0.962031,
+          "center": {
+            "lat": 55.49885126360284,
+            "lng": 37.11736855655019
+          },
+          "bounds": {
+            "south": 55.426191386650686,
+            "west": 37.04470867959804,
+            "north": 55.57151114055499,
+            "east": 37.19002843350234
+          }
+        },
+        {
+          "label": "AO-31",
+          "filename": "40_AO-31.png",
+          "similarity": 0.959428,
+          "center": {
+            "lat": 54.77225249408131,
+            "lng": 36.24545003312436
+          },
+          "bounds": {
+            "south": 54.699592617129156,
+            "west": 36.172790156172205,
+            "north": 54.84491237103346,
+            "east": 36.31810991007651
+          }
+        }
+      ]
+    },
+    {
+      "query_label": "AW-37",
+      "query_filename": "52_AW-37.png",
+      "predicted_label": "AW-37",
+      "top1_ok": true,
+      "top3_ok": true,
+      "top_matches": [
+        {
+          "label": "AW-37",
+          "filename": "52_AW-37.png",
+          "similarity": 0.9906,
+          "center": {
+            "lat": 55.64417101750714,
+            "lng": 37.4080080643588
+          },
+          "bounds": {
+            "south": 55.57151114055499,
+            "west": 37.33534818740665,
+            "north": 55.71683089445929,
+            "east": 37.480667941310955
+          }
+        },
+        {
+          "label": "AX-37",
+          "filename": "53_AX-37.png",
+          "similarity": 0.963628,
+          "center": {
+            "lat": 55.64417101750714,
+            "lng": 37.55332781826311
+          },
+          "bounds": {
+            "south": 55.57151114055499,
+            "west": 37.480667941310955,
+            "north": 55.71683089445929,
+            "east": 37.62598769521526
+          }
+        },
+        {
+          "label": "Q-14",
+          "filename": "05_Q-14.png",
+          "similarity": 0.957347,
+          "center": {
+            "lat": 52.301816677708125,
+            "lng": 32.75777593942104
+          },
+          "bounds": {
+            "south": 52.22915680075597,
+            "west": 32.685116062468886,
+            "north": 52.374476554660276,
+            "east": 32.83043581637319
+          }
+        }
+      ]
+    },
+    {
+      "query_label": "AX-37",
+      "query_filename": "53_AX-37.png",
+      "predicted_label": "AX-37",
+      "top1_ok": true,
+      "top3_ok": true,
+      "top_matches": [
+        {
+          "label": "AX-37",
+          "filename": "53_AX-37.png",
+          "similarity": 0.994441,
+          "center": {
+            "lat": 55.64417101750714,
+            "lng": 37.55332781826311
+          },
+          "bounds": {
+            "south": 55.57151114055499,
+            "west": 37.480667941310955,
+            "north": 55.71683089445929,
+            "east": 37.62598769521526
+          }
+        },
+        {
+          "label": "AW-37",
+          "filename": "52_AW-37.png",
+          "similarity": 0.967708,
+          "center": {
+            "lat": 55.64417101750714,
+            "lng": 37.4080080643588
+          },
+          "bounds": {
+            "south": 55.57151114055499,
+            "west": 37.33534818740665,
+            "north": 55.71683089445929,
+            "east": 37.480667941310955
+          }
+        },
+        {
+          "label": "AA-21",
+          "filename": "20_AA-21.png",
+          "similarity": 0.962505,
+          "center": {
+            "lat": 53.31905495503826,
+            "lng": 34.21097347846408
+          },
+          "bounds": {
+            "south": 53.24639507808611,
+            "west": 34.13831360151193,
+            "north": 53.39171483199041,
+            "east": 34.283633355416235
+          }
+        }
+      ]
+    },
+    {
+      "query_label": "AX-38",
+      "query_filename": "54_AX-38.png",
+      "predicted_label": "AX-38",
+      "top1_ok": true,
+      "top3_ok": true,
+      "top_matches": [
+        {
+          "label": "AX-38",
+          "filename": "54_AX-38.png",
+          "similarity": 0.99493,
+          "center": {
+            "lat": 55.789490771411444,
+            "lng": 37.55332781826311
+          },
+          "bounds": {
+            "south": 55.71683089445929,
+            "west": 37.480667941310955,
+            "north": 55.862150648363595,
+            "east": 37.62598769521526
+          }
+        },
+        {
+          "label": "AY-38",
+          "filename": "55_AY-38.png",
+          "similarity": 0.963027,
+          "center": {
+            "lat": 55.789490771411444,
+            "lng": 37.69864757216741
+          },
+          "bounds": {
+            "south": 55.71683089445929,
+            "west": 37.62598769521526,
+            "north": 55.862150648363595,
+            "east": 37.77130744911956
+          }
+        },
+        {
+          "label": "AW-37",
+          "filename": "52_AW-37.png",
+          "similarity": 0.937345,
+          "center": {
+            "lat": 55.64417101750714,
+            "lng": 37.4080080643588
+          },
+          "bounds": {
+            "south": 55.57151114055499,
+            "west": 37.33534818740665,
+            "north": 55.71683089445929,
+            "east": 37.480667941310955
+          }
+        }
+      ]
+    },
+    {
+      "query_label": "AY-38",
+      "query_filename": "55_AY-38.png",
+      "predicted_label": "AY-38",
+      "top1_ok": true,
+      "top3_ok": true,
+      "top_matches": [
+        {
+          "label": "AY-38",
+          "filename": "55_AY-38.png",
+          "similarity": 0.994342,
+          "center": {
+            "lat": 55.789490771411444,
+            "lng": 37.69864757216741
+          },
+          "bounds": {
+            "south": 55.71683089445929,
+            "west": 37.62598769521526,
+            "north": 55.862150648363595,
+            "east": 37.77130744911956
+          }
+        },
+        {
+          "label": "AX-38",
+          "filename": "54_AX-38.png",
+          "similarity": 0.960546,
+          "center": {
+            "lat": 55.789490771411444,
+            "lng": 37.55332781826311
+          },
+          "bounds": {
+            "south": 55.71683089445929,
+            "west": 37.480667941310955,
+            "north": 55.862150648363595,
+            "east": 37.62598769521526
+          }
+        },
+        {
+          "label": "AW-37",
+          "filename": "52_AW-37.png",
+          "similarity": 0.917544,
+          "center": {
+            "lat": 55.64417101750714,
+            "lng": 37.4080080643588
+          },
+          "bounds": {
+            "south": 55.57151114055499,
+            "west": 37.33534818740665,
+            "north": 55.71683089445929,
+            "east": 37.480667941310955
+          }
+        }
+      ]
+    }
+  ]
+}

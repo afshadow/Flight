@@ -1,0 +1,243 @@
+{
+  "tool": "tile_grid_recognition_example",
+  "version": 1,
+  "dataset": {
+    "manifest": "kyiv-route-google-squares/route-squares.json",
+    "tile_count": 55,
+    "image_size": {
+      "width": 1280,
+      "height": 1280
+    },
+    "map_type": "hybrid"
+  },
+  "square_building_example": {
+    "explanation": "Each square is built directly from a manifest cell: bounds define the four corners, while row and col are reconstructed from unique center latitude and longitude values.",
+    "cells": [
+      {
+        "label": "O-12",
+        "filename": "01_O-12.png",
+        "grid_position": {
+          "row": 26,
+          "col": 0
+        },
+        "bounds": {
+          "south": 51.93851729294736,
+          "west": 32.39447655466027,
+          "north": 52.08383704685166,
+          "east": 32.539796308564576
+        },
+        "center": {
+          "lat": 52.01117716989951,
+          "lng": 32.467136431612424
+        },
+        "corners": [
+          {
+            "corner": "north_west",
+            "lat": 52.08383704685166,
+            "lng": 32.39447655466027
+          },
+          {
+            "corner": "north_east",
+            "lat": 52.08383704685166,
+            "lng": 32.539796308564576
+          },
+          {
+            "corner": "south_east",
+            "lat": 51.93851729294736,
+            "lng": 32.539796308564576
+          },
+          {
+            "corner": "south_west",
+            "lat": 51.93851729294736,
+            "lng": 32.39447655466027
+          }
+        ]
+      },
+      {
+        "label": "P-12",
+        "filename": "02_P-12.png",
+        "grid_position": {
+          "row": 26,
+          "col": 1
+        },
+        "bounds": {
+          "south": 51.93851729294736,
+          "west": 32.539796308564576,
+          "north": 52.08383704685166,
+          "east": 32.68511606246888
+        },
+        "center": {
+          "lat": 52.01117716989951,
+          "lng": 32.61245618551673
+        },
+        "corners": [
+          {
+            "corner": "north_west",
+            "lat": 52.08383704685166,
+            "lng": 32.539796308564576
+          },
+          {
+            "corner": "north_east",
+            "lat": 52.08383704685166,
+            "lng": 32.68511606246888
+          },
+          {
+            "corner": "south_east",
+            "lat": 51.93851729294736,
+            "lng": 32.68511606246888
+          },
+          {
+            "corner": "south_west",
+            "lat": 51.93851729294736,
+            "lng": 32.539796308564576
+          }
+        ]
+      },
+      {
+        "label": "P-13",
+        "filename": "03_P-13.png",
+        "grid_position": {
+          "row": 25,
+          "col": 1
+        },
+        "bounds": {
+          "south": 52.08383704685166,
+          "west": 32.539796308564576,
+          "north": 52.229156800755966,
+          "east": 32.68511606246888
+        },
+        "center": {
+          "lat": 52.156496923803815,
+          "lng": 32.61245618551673
+        },
+        "corners": [
+          {
+            "corner": "north_west",
+            "lat": 52.229156800755966,
+            "lng": 32.539796308564576
+          },
+          {
+            "corner": "north_east",
+            "lat": 52.229156800755966,
+            "lng": 32.68511606246888
+          },
+          {
+            "corner": "south_east",
+            "lat": 52.08383704685166,
+            "lng": 32.68511606246888
+          },
+          {
+            "corner": "south_west",
+            "lat": 52.08383704685166,
+            "lng": 32.539796308564576
+          }
+        ]
+      },
+      {
+        "label": "Q-13",
+        "filename": "04_Q-13.png",
+        "grid_position": {
+          "row": 25,
+          "col": 2
+        },
+        "bounds": {
+          "south": 52.08383704685166,
+          "west": 32.685116062468886,
+          "north": 52.229156800755966,
+          "east": 32.83043581637319
+        },
+        "center": {
+          "lat": 52.156496923803815,
+          "lng": 32.75777593942104
+        },
+        "corners": [
+          {
+            "corner": "north_west",
+            "lat": 52.229156800755966,
+            "lng": 32.685116062468886
+          },
+          {
+            "corner": "north_east",
+            "lat": 52.229156800755966,
+            "lng": 32.83043581637319
+          },
+          {
+            "corner": "south_east",
+            "lat": 52.08383704685166,
+            "lng": 32.83043581637319
+          },
+          {
+            "corner": "south_west",
+            "lat": 52.08383704685166,
+            "lng": 32.685116062468886
+          }
+        ]
+      }
+    ]
+  },
+  "recognition_example": {
+    "query_file": "kyiv-route-google-squares/14_W-18.png",
+    "recognized_square": {
+      "label": "W-18",
+      "filename": "14_W-18.png",
+      "similarity": 1.0
+    },
+    "nearest_alternative_squares": [
+      {
+        "label": "AB-21",
+        "filename": "21_AB-21.png",
+        "similarity": 0.962775
+      },
+      {
+        "label": "AU-36",
+        "filename": "50_AU-36.png",
+        "similarity": 0.958436
+      },
+      {
+        "label": "X-18",
+        "filename": "15_X-18.png",
+        "similarity": 0.956931
+      }
+    ],
+    "query_square": {
+      "label": "W-18",
+      "filename": "14_W-18.png",
+      "grid_position": {
+        "row": 20,
+        "col": 8
+      },
+      "bounds": {
+        "south": 52.81043581637319,
+        "west": 33.55703458589471,
+        "north": 52.955755570277496,
+        "east": 33.702354339799015
+      },
+      "center": {
+        "lat": 52.883095693325345,
+        "lng": 33.629694462846864
+      },
+      "corners": [
+        {
+          "corner": "north_west",
+          "lat": 52.955755570277496,
+          "lng": 33.55703458589471
+        },
+        {
+          "corner": "north_east",
+          "lat": 52.955755570277496,
+          "lng": 33.702354339799015
+        },
+        {
+          "corner": "south_east",
+          "lat": 52.81043581637319,
+          "lng": 33.702354339799015
+        },
+        {
+          "corner": "south_west",
+          "lat": 52.81043581637319,
+          "lng": 33.55703458589471
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+    "task_id": "example-two-tile-routing",
+    "description": "Minimal example mission input for the UAV routing pipeline using two real raster tiles from the workspace.",
+    "input_data": {
+        "source_rasters": [
+            "kyiv-route-google-squares/01_O-12.png",
+            "kyiv-route-google-squares/02_P-12.png"
+        ],
+        "grid_layout": [
+            [
+                "kyiv-route-google-squares/01_O-12.png",
+                "kyiv-route-google-squares/02_P-12.png"
+            ]
+        ],
+        "start_coordinates": [160, 640],
+        "end_coordinates": [2400, 640]
+    },
+    "constraints": {
+        "min_safe_altitude_m": 120.0,
+        "max_climb_angle_deg": 15.0,
+        "forbidden_zones_grid_chips": []
+    },
+    "output_format": {
+        "target_file": "agent_task.json",
+        "schema": "Mavlink_Compliant_V2"
+    }
+}
